@@ -1,0 +1,14 @@
+Enoncé
+Définir la fonction nb_jours_mois_precedent qui calcule le nombre de jours séparant le 
+1er janvier et le 1er jour (exclu) du mois qui précède la date donnée en paramètre. Si la 
+date est en janvier, le nombre de jour est nul.
+
+Utiliser la date complète définie par un tuple d'entiers au format (annee,mois,jour)
+
+Vous aurez besoin de la fonction précédemment définie nb_jours_du_mois.
+
+Paramètres de la fonction
+Un tuple composé de trois entiers (positifs) au format (annee,mois,jour).
+
+Retour de la fonction
+Le nombre de jours entre le 1er janvier et le premier jour du mois de la date donnée.

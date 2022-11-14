@@ -1,0 +1,15 @@
+Enoncé
+Ecrire la définition d'une fonction qui calcule et renvoie le nombre miroir d'un entier 
+strictement positif donné.
+
+On définit le "nombre miroir" comme le nombre qu'on obtiendrait si on lisait le nombre 
+de la droite vers la gauche au lieu du sens habituel. Par exemple, "12" se lirait "21".
+
+Contraintes
+La fonction doit s’appeler nombreMiroir.
+
+Paramètre de la fonction
+Un entier strictement positif.
+
+Retour
+Un entier positif.

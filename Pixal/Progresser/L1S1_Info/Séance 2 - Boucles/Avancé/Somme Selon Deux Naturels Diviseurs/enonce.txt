@@ -1,0 +1,10 @@
+Enoncé
+Ecrire un programme qui étant donné deux entiers naturels a et b calcule 
+la somme des entiers naturels divisibles par a ou b inférieurs (ou égaux) 
+à 1000.
+
+Entrées
+Deux entiers positifs.
+
+Sortie
+Un entier positif.

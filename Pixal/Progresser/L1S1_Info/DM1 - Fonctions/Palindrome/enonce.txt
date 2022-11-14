@@ -1,0 +1,20 @@
+Enoncé
+Un nombre entier positif ou nul est dit palindrome si et seulement si il se lit de la même 
+façon de gauche à droite et de droite à gauche.
+
+7031307 est un palindrome
+703107 n'en est pas un.
+4554 est un palindrome
+
+Ecrire un programme qui compte le nombre de palindromes strictement positifs, inférieurs 
+ou égaux à un entier donné. Vous devez écrire une fonction palindrome qui teste si un 
+nombre est palindrome, c'est-à-dire qui renvoie un booléen et l'utiliser. Vous ne devez 
+pas utiliser les listes.
+
+Entrée du programme
+Un entier naturel
+
+Sortie du programme
+Un entier qui représente le nombre de palindromes inférieurs ou égaux à l'entier saisi 
+(positifs)
+

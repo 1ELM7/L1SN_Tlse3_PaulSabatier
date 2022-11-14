@@ -1,0 +1,20 @@
+Enoncé
+Il s’agit de calculer la valeur de x à la puissance y sans utiliser 
+l'opérateur d'exponentiation (**). Et en utilisant la propriété suivante :
+
+x y = (x*x) (y/2) quand y est pair
+et x y = x * (x y-1 ) quand y n'est pas pair (calcul classique)
+
+x et y sont deux naturels donnés en entrée. Ecrire un programme qui définit et appelle 
+une fonction expoRapide qui a 2 paramètres (entiers naturels). La fonction utilise 
+l'algorithme précisé pour calculer et renvoyer la valeur de x à la puissance y.
+
+Contraintes
+On n'utilise pas l'opérateur d'exponentiation (**).
+
+
+Entrée du programme
+Deux entiers naturels.
+
+Sortie du programme
+Un entier naturel.

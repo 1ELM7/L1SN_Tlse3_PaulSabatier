@@ -1,0 +1,4 @@
+On souhaite comparer le temps d'exécution de l'exponentation naïve, de l'exponentation rapide et de l'exponentation donnée par python. Autrement dit sur l'entrée a et n, le programme renvoie le temps mis pour calculer a^n par les trois méthodes. Pour cela on doit importer la librairie time et la fonction time.time() donne le temps de la machine en seconde au moment où elle est appellée.
+
+Entrée
+Un entier relatif a et un entier naturel n.

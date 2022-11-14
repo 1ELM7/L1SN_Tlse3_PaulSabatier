@@ -1,0 +1,31 @@
+Énoncé
+Une piscine municipale propose trois tarifs :
+Tarif 1 : une entrée : 3 euros
+Tarif 2 : abonnement annuel 9 euros, puis 1 euro à l'entrée
+Tarif 3 : abonnement annuel 20 euros, puis entrées à volonté
+Ecrire le programme qui, étant donné le nombre d'entrées n, permet de 
+calculer et afficher les tarifs les plus avantageux.
+
+Analyse du problème
+Avant de se lancer dans l'écriture du code, il est nécessaire d'analyser 
+le problème plus avant, en effet, tous les cas de figure ne sont pas 
+possibles.
+Par exemple, le tarif 1 ne peut jamais être ex-aequo avec le tarif 2 car 
+l'équation 3*n=9+n n'a pas de solution entière...
+De même, le tarif 1 ne peut jamais être ex-aequo avec le 3 (pourquoi ?).
+En revanche, le 2 et le 3 peuvent être également avantageux 
+(pour quelle valeur de n ?)
+
+Au final, après analyse il ne reste que 4 options :
+le tarif 1 est le meilleur (sans ex-aequo)
+le 2 et le 3 sont ex-aequo
+le 2 est le meilleur
+le 3 est le meilleur
+NB : si les tarifs venaient à changer, il faudrait refaire cette analyse 
+bien sûr !
+
+Entrées
+Un entier positif
+
+Sortie
+"Tarif 1", "Tarif 2", "Tarif 3" ou "Tarif 2 = Tarif 3"

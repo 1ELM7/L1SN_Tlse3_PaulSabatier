@@ -1,0 +1,13 @@
+Enoncé
+Ecrire un programme qui permet de saisir l'âge (entier) de deux personnes 
+et d'afficher leur différence d'âge en valeur absolue.
+
+Compléments
+l'instruction x=abs(expr) range dans x la valeur absolue de l'expression 
+expr. Exemple : x = abs(25-42)
+Entrée
+Deux entiers naturels.
+
+Sortie
+Affichage de "difference=" et l'entier naturel correspondant au calcul. 
+Attention, sans accent.

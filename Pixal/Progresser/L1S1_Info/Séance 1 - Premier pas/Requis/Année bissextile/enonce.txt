@@ -1,0 +1,17 @@
+Enoncé
+Jusqu'en 1582, le calendrier Julien prévoyait des années bissextiles 
+(de 366 jours) tous les 4 ans.
+Mais cela causait un décalage par rapport à l'année solaire. 
+Cette année-là, on est passé au calendrier grégorien pour se recaler sur 
+le soleil, et la définition des années bissextiles a évolué. Depuis, une 
+année est bissextile si :
+soit elle est divisible par 4 mais pas par 100, soit elle est divisible 
+par 400.
+L'entrée est une année (un entier), la sortie est "oui" ou "non" 
+("oui" si elle est bissextile, "non" si elle ne l'est pas)
+
+Entrée du programme
+Un entier naturel.
+
+Sortie du programme
+"oui" ou "non".

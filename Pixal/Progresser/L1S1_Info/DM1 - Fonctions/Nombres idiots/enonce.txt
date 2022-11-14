@@ -1,0 +1,18 @@
+Enoncé
+Un entier naturel est dit nombre « idiot » s'il est égal à la somme des cubes de chacun de 
+ses chiffres (lorsqu'il est exprimé en base 10).
+
+Ecrire une fonction qui calcule si l'entier naturel donné en paramètre est un nombre idiot 
+ou non. La valeur retournée par la fonction doit être de type Booléen.
+Exemple : 153 est un nombre idiot car 13+53+33 = 1+125+27=153.
+
+Ecrire un programme qui utilise cette fonction pour afficher tous les nombres idiots entre 
+deux valeurs entières positives saisies au clavier.
+L'opérateur de division entière est // . Celui du reste de la division entière est % .
+
+
+Entrée du programme
+2 entiers positifs
+
+Sortie du programme
+Les nombres idiots entre les 2 entiers saisis au clavier (inclus)

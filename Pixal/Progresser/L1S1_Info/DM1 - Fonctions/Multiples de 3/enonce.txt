@@ -1,0 +1,18 @@
+Enoncé
+Ecrire un programme qui définit et appelle la fonction multiple3. Cette fonction affiche 
+selon son paramètre l'un des messages suivants :
+a) ”Ce nombre est pair”
+b) ”Ce nombre est impair mais est multiple de 3”
+c) ”Ce nombre n est ni pair ni multiple de 3” (attention pas d'apostrophe)
+
+Le paramètre est un entier, l'effet de l'appel est l'affichage de l'un des 3 résultats a, 
+b ou c.
+
+Contrainte
+Définir et appeler une fonction qui affiche le message attendu parmi les 3 proposés selon la valeur donnée.
+
+Entrée du programme
+Un entier naturel.
+
+Sortie du programme
+l'un des 3 affichages possibles.

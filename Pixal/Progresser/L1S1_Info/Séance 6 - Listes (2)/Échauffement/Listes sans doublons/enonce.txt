@@ -1,0 +1,14 @@
+Énoncé
+On cherche à enlever les doublons d'une liste d'éléments, c'est-à-dire à ne conserver 
+qu'un seul exemplaire de chaque élément présent dans la liste. On suppose la liste triée. 
+Écrivez un programme qui affiche le résultat désiré en utilisant une fonction, que vous 
+écrirez, qui prend une liste en argument et renvoie la liste sans doublon.
+Vous devrez modifier la liste donnée en argument sans utiliser de liste auxiliaire.
+Veillez à exploiter le fait que la liste est triée en ne la parcourant qu'une seule fois !
+
+Entrée du programme
+Une liste d'éléments saisie en utilisant l'instruction l=eval(input()) (voir rubrique «Saisie simplifiée des listes»).
+
+Sortie du programme
+Une liste, toujours triée, où les éléments de la liste de départ sont en un seul 
+exemplaire.

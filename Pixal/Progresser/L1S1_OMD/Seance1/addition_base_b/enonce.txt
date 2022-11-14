@@ -1,0 +1,4 @@
+Ecrivez un programme qui calcule l'addition de deux nombres en base b noté c1 et c2.
+
+Entrée :
+Le programme commence par lire la base b, puis la puissance maximale de b dans c1, puis dans c2. Ensuite, il lit les chiffres de c1, puis les chiffres de c2, par ordre de poids croissant.

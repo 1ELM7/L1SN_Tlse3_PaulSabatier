@@ -1,0 +1,9 @@
+Enoncé
+Ecrire un programme qui saisit un entier strictement positif et affiche 
+la table de multiplication de cet entier.
+
+Entrée
+Un  entier strictement  positif
+
+Sortie
+Une séquence de 10 entiers

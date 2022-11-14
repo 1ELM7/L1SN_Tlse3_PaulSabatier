@@ -1,0 +1,12 @@
+Enoncé
+Ecrire la définition d'une fonction qui calcule et renvoie lequel de ses trois paramètres 
+est le plus grand.
+
+Contraintes
+La fonction doit s'appeler max3entiers .
+
+Paramètres de la fonction
+Trois entiers.
+
+Retour de la fonction
+Un entier.

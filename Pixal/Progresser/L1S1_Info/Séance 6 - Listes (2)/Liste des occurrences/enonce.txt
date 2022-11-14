@@ -1,0 +1,12 @@
+Enoncé
+Écrire fonction liste_occurrences qui renvoie la liste des indices (dans l'ordre croissant) 
+de toutes les occurrences d'un élément dans une liste.
+Ecrire le programme qui saisit les données, appelle la fonction demandée pour faire le 
+calcul et affiche le résultat.
+
+Entrées
+une liste de chaînes de caractères saisie en utilisant l'instruction l=eval(input()) 
+(voir rubrique «Saisie simplifiée des listes»), une chaîne de caractères.
+
+Sorties
+Une liste d'entiers naturels ([] si la chaîne recherchée n'est pas dans la liste).

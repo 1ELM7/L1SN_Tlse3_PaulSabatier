@@ -1,0 +1,16 @@
+Enoncé
+On veut décomposer un nombre entier positif en la liste des chiffres qui le composent.
+Ainsi pour 125 on veut obtenir [1, 2, 5].
+
+Écrire la fonction creation(nb) qui renvoie la liste des chiffres qui composent le nombre 
+(nb) dans le bon ordre.
+Ecrire le programme qui saisit les données, appelle la fonction demandée pour faire le 
+calcul et affiche le résultat.
+
+
+Entrée du programme
+Un entier naturel positif ou nul
+
+Sortie du programme
+Une liste d'entier naturels positifs compris entre 0 et 9. On utilise directement "print" 
+sur une liste.

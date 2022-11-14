@@ -1,0 +1,19 @@
+Enoncé
+Un nombre de Harshad en base 10 (dit aussi nombre de Niven) est un nombre entier i
+naturel > 0 qui est divisible par la somme des chiffres qui le composent. Ainsi, 10 est 
+divisible par 1+0, de même 27 est divisible par 2+7, 99 n'est pas divisible par 9+9, et 
+102 est divisible par 1+0+2.
+Ecrire un PROGRAMME qui saisit un entier n et qui affiche les nombres inférieurs ou 
+égaux à n qui sont des nombres de Harshad. Le programme doit utiliser (appeler) la 
+fonction sommeChiffres(n) qui permet de calculer la somme des chiffres d'un nombre n. Le 
+programme ne doit pas définir la fonction sommeChiffres(n).
+
+
+Entrées du programme
+Un entier
+
+Sorties du programme
+Les entiers divisibles par la somme des chiffres qui les composent.
+
+Contraintes
+Le programme doit appeler la fonction sommeChiffres qui a 1 paramètre

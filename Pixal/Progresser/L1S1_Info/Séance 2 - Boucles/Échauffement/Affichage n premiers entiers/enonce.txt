@@ -1,0 +1,9 @@
+Enoncé
+Ecrire un programme qui saisit un entier naturel non nul n et ensuite 
+affiche les n premiers entiers positifs.
+
+Entrée
+Un entier naturel non nul n.
+
+Sortie
+La suite des entiers de 1 à n.

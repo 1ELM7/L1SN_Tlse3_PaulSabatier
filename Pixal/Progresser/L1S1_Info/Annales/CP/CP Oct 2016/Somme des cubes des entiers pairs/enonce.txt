@@ -1,0 +1,13 @@
+Enoncé
+Ecrire la DEFINITION d'une fonction (et seulement sa définition). Cette fonction a deux 
+arguments n1 et n2 entiers (avec n1 < n2) et renvoie la somme des cubes des entiers pairs 
+de l'intervalle [n1..n2]. Cette fonction se nommera obligatoirement sommeCubesPairs.
+
+Paramètres de la fonction
+Deux entiers.
+
+Résultat de la fonction
+Un entier.
+
+Contraintes
+La fonction à définir doit s'appeler sommeCubesPairs.

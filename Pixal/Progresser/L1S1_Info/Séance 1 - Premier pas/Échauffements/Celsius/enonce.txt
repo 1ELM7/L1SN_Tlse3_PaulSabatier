@@ -1,0 +1,12 @@
+Enoncé
+On veut convertir une température de degrés Fahrenheit en degrés Celsius.
+La formule est la suivante :
+temp_celsius = (temp_fahrenheit-32)*5/9
+En entrée on a la température en degrés Fahrenheit et on veut obtenir la 
+température en degrés Celsius.
+
+Entrée du programme
+Un réel.
+
+Sortie du programme
+Un réel.

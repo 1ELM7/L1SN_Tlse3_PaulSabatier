@@ -1,0 +1,16 @@
+Enoncé
+A la naissance de Jules, ses parents lui ouvrent un compte épargne sur 
+lequel ils versent 100 euros. Ensuite, à chaque anniversaire de Jules, 
+100 euros plus le double de son âge en euros sont versés sur le compte.
+
+Par exemple, lorsque Jules a 2 ans, 104 euros sont versés sur le compte.
+Ecrire un programme qui saisit un entier n strictement positif et affiche 
+la somme disponible sur le compte de Jules le lendemain de son nième 
+anniversaire.
+
+Entrée
+Un  entier strictement  positif
+
+Sortie
+Affichage de « La somme disponible est  … euros»   avec la valeur adéquate 
+pour la somme.

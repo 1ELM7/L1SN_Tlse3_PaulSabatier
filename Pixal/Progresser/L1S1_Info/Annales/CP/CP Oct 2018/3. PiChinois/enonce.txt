@@ -1,0 +1,16 @@
+Enoncé
+Au Vème siècle, le mathématicien chinois Zu Chongzhi donne une approximation rationnelle 
+(sous forme de fraction) de π valant 355/113 qui restera la meilleure durant 9 siècles !! 
+Ecrire la definition d'une fonction qui permet de calculer la circonférence (périmètre) 
+d'un cercle dont le rayon est en paramètre en prenant pour valeur de π, celle de 
+Zu Chongzhi.
+
+Contraintes
+La fonction doit s'appeler circonference.
+Pas de pas à pas/tests personnels pour cet exercice.
+
+Paramètres de la fonction
+Un float ("réel") positif représentant le rayon d'un cercle.
+
+Retour de la fonction
+Un float ("réel") positif représentant la circonférence de ce cercle.

@@ -1,0 +1,1 @@
+Programmer en python l'algorithme de division euclidienne : a = q.b + r avec 0 ≤ r ≤ b - 1.

@@ -1,0 +1,13 @@
+Enoncé
+Ecrire un programme qui lit des entiers entrés au clavier tant que la valeur -1 n'est pas 
+rencontrée.
+Le programme affiche le nombre de fois qu'un entier lu au clavier est égal à la valeur 
+absolue de la différence des deux entiers lus après lui. Il faut avoir lu au moins trois 
+entiers pour commencer à compter.
+
+Entrée du programme
+Un nombre fini d'entiers supérieurs ou égaux à 0 (au moins 3 entiers lus), puis l'entier 
+-1 pour terminer la séquence.
+
+Sortie du programme
+Un entier naturel.

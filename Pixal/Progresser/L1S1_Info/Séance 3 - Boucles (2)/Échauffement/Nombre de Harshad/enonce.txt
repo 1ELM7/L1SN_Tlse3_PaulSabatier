@@ -1,0 +1,17 @@
+Enoncé
+Un nombre de Harshad en base 10 (dit aussi nombre de Niven) est un nombre 
+entier naturel > 0 qui est divisible par la somme des chiffres qui le 
+composent. Ainsi, 10 est divisible par 1+0, de même 27 est divisible par 
+2+7, 99 n'est pas divisible par 9+9, et 102 est divisible par 1+0+2. 
+On veut écrire un programme qui détermine si un nombre donné en entrée est 
+un nombre de Harshad.
+
+Remarques :
+Le modulo est % : exemple 18 % 10 -> 8
+La division entière est // : exemple : 18 // 10 -> 1
+
+Entrée du programme
+Un entier naturel.
+
+Sortie du programme
+"oui" ou "non"

@@ -1,0 +1,17 @@
+Enoncé
+Ecrire la DEFINITION d'une fonction (et seulement sa définition). Cette fonction est 
+nommée sommePrems et a deux arguments n1 et n2 entiers naturels. Elle renvoie la somme 
+des entiers premiers qui sont compris strictement entre n1 et n2 (n1 et n2 étant exclus). 
+Vous devez appeler la fonction estPremier qui permet de savoir si un entier est premier 
+ou non. La fonction estPremier est définie et peut donc être utilisée.
+
+Paramètres de la fonction
+Deux entiers.
+
+Résultat de la fonction
+Un entier.
+
+Contraintes
+La fonction à définir doit s'appeler sommePrems et doit appeler la fonction estPremier.
+L'appel estPremier(n) renvoie une valeur booléenne : True si le nombre entier n est 
+premier, False si il n’est pas premier.

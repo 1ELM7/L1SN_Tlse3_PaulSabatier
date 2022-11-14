@@ -1,0 +1,12 @@
+Enoncé
+Ecrire un programme qui calcule le minimum de n nombres reçus en entrée. 
+On commence par saisir n, le nombre de valeurs dont on veut faire le minimum.
+
+Contraintes
+Les fonctions prédéfinies python (mean, average, sum, min...) sont interdites.
+
+Entrée
+Un entier naturel non nul n, et n entiers relatifs.
+
+Sortie
+Le minimum

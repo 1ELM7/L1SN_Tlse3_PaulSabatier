@@ -1,0 +1,20 @@
+Enoncé
+On représente les noms et âges des membres d'une équipe de sport par une liste de couples 
+(nom,âge).
+Pour un tournoi, on dispose de la liste des équipes, chaque équipe étant la liste de 
+couples correspondant à ses membres.
+Ecrire un programme qui pour une liste de listes de couples (donc une liste d'équipes), 
+affiche les âges des joueurs dont le nom est le premier par ordre alphabétique parmi les 
+noms de ceux de leur équipe. On conserve l'ordre de la liste de départ. Pour simplifier, 
+on suppose que dans une équipe les joueurs ont des noms différents.
+Le programme prend en entrée une liste de liste de couples (à l'aide de eval(input()) ) 
+chaque couple étant composé d'une chaîne de caractères et d'un entier. Le programme 
+affiche la liste résultat.
+Remarque : Pour déterminer l'ordre alphabétique entre 2 chaînes de caratères, on utilise 
+le ">". Exemple : "Olivier">"Mustapha", "Loic"<"Sandrine".
+
+Entrée
+Une liste non vide de listes non vides de couples (chaîne,entier)
+
+Sortie
+Une liste d'entiers

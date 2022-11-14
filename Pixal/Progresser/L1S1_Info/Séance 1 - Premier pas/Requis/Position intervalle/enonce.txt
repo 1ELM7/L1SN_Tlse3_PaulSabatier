@@ -1,0 +1,15 @@
+Enoncé
+On souhaite connaître la position d'un nombre dans un intervalle.
+
+Ecrire un programme permettant de saisir/lire trois nombres entiers 
+positifs, puis d'afficher la position du troisième par rapport à 
+l'intervalle formé par les deux premiers (bornes incluses). On ne suppose 
+pas que le premier nombre saisi est inférieur ou égal au second.
+
+Entrée du programme
+3 entiers positifs
+
+Sortie du programme
+Affichage de « Le troisieme entier lu… est dans l'intervalle ... » ou 
+« Le troisieme entier lu… est hors de l'intervalle ... » avec les valeurs 
+adéquates (sans les accents)

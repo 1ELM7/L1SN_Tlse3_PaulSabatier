@@ -1,0 +1,11 @@
+Enoncé
+Ecrivez la définition d'une fonction qui calcule la somme des diviseurs d'un entier donné (1 et lui-même sont des diviseurs).
+
+Contraintes
+La fonction doit s'appeler sommeDiviseurs
+
+Paramètre de la fonction
+Un entier positif.
+
+Retour de la fonction
+Un entier (positif).

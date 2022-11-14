@@ -1,0 +1,4 @@
+Etant donnés un entier a et un entier naturel n, implantez en python l'algorithme d'exponentation naïf qui consiste à multiplier n fois l'entier a.
+
+Entrée :
+Un entier relatif a et un entier naturel n.

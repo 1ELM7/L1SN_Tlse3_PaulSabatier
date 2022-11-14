@@ -1,0 +1,16 @@
+Énoncé
+Étant donné une base de données sous la forme d'une liste de triplets (acteur,date de 
+naissance,lieu de naissance), écrire un programme qui
+
+1) définit une fonction qui détermine la liste des acteurs nés en un lieu donné puis
+2) lit la liste l des triplets et un lieu de naissance
+3) utilise la fonction pour calculer la liste des acteurs nés à cet endroit et
+4) affiche cette liste.
+
+Entrée du programme
+Une liste de triplets de chaînes de caractères saisie en utilisant l'instruction 
+l=eval(input()) (voir rubrique «Saisie simplifiée des listes») puis une chaîne de 
+caractères (représentant un lieu).
+
+Sortie du programme
+Une liste de chaîne de caractères ([] si le lieu n'est pas dans la liste).

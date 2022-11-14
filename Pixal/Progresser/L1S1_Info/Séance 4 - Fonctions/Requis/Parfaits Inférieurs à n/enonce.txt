@@ -1,0 +1,17 @@
+Enoncé
+Un nombre parfait est un entier pour lequel la somme de ses diviseurs (strictement 
+inférieurs) vaut ce nombre. On désire écrire un programme qui affiche tous les nombres 
+parfaits inférieurs à un entier donné en entrée. Copiez-collez la fonction 
+sommeDiviseurs (somme des diviseurs inférieurs ou égaux) de l'exercice précédent et 
+modifiez-la pour l'adapter. Puis écrivez le PROGRAMME qui affiche tous les entiers 
+parfaits inférieurs à l'entrée. Dans cet exercice, on demande bien un programme et pas 
+une fonction.
+
+Contraintes
+Le programme doit utiliser la fonction sommeDiviseurs.
+
+Entrée
+Un entier naturel.
+
+Sortie
+0, 1 ou plusieurs entiers naturels.

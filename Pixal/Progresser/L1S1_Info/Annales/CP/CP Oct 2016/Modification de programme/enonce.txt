@@ -1,0 +1,19 @@
+Enoncé
+Modifiez le programme suivant pour qu'il affiche la somme des nombres pairs inférieurs ou 
+égaux à n (n étant un entier saisi au clavier). PS : il est possible de ne modifier 
+qu'une seule ligne pour y parvenir.
+
+n=int(input())
+s= 0
+i= 0
+while i <= n-1:
+    s= s+i+1
+    i= i+2
+print(s)
+
+
+Entrées
+Un entier positif ou nul
+
+Sortie
+Un entier positif ou nul

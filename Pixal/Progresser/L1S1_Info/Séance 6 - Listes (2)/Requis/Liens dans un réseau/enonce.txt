@@ -1,0 +1,20 @@
+Énoncé
+Étant donné un ensemble de liens entre personnages stocké dans une liste de couples, 
+écrire un programme qui lit la liste l des liens et un personnage p, et affiche le nombre 
+de personnages liés à p. Pour cela, vous définirez et utiliserez une fonction qui renvoie 
+la liste de tous les personnages liés à un personnage donné (la fonction renvoie bien la 
+liste et pas le nombre, elle pourra vous être utile plus tard).
+La présence d'un couple (x,y) signifie uniquement que x est lié à y et pas que y est lié 
+à x.
+
+Un personnage peut être lié à lui-même. On suppose qu'il n'y a pas de doublon dans la 
+liste (chaque couple apparaît une fois au plus).
+
+
+Entrée du programme
+Une liste de couples de chaînes de caractères saisie en utilisant l'instruction 
+l=eval(input()) (voir rubrique «Saisie simplifiée des listes»), suivie d'une chaîne de 
+caractères.
+
+Sortie du programme
+Un entier naturel

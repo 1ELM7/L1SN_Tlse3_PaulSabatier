@@ -1,0 +1,13 @@
+Enoncé
+Ecrire le programme qui permet d'afficher les entiers naturels strictement 
+positifs et strictement inférieurs à n qui vérifient la propriété suivante : 
+somme des chiffres = produit des chiffres. Bien évidemment les naturels 
+inférieurs à 10 respectent cette propriété.
+Exemple : 123 respecte cette propriété car 1+2+3=1*2*3=6. 
+121 ne respecte pas cette propriété car 1+2+1=4 ≠ 1*2*1=2.
+
+Entrée du programme
+Un entier naturel.
+
+Sortie du programme
+Un ou plusieurs entiers naturels.

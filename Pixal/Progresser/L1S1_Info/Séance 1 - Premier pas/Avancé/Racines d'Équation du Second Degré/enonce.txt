@@ -1,0 +1,17 @@
+Enoncé
+Faire un programme afin qu'il calcule les racines d'un trinôme du 
+second degré aX2+bX+c à coefficients réels (flottants) puis les affiche 
+(ordre indifférent). Pour simplifier le discriminant sera toujours positif.
+
+Une fois votre programme écrit, faites des tests avec les valeurs suivantes :
+a=1.0, b=-3.0, c=2.0 (résultat attendu 1.0 et 2.0)
+a =0.0, b et c indifférents
+a=1.0,b=1.0,c=1.0
+Que constatez-vous ? Essayez de comprendre les messages d'erreur.
+
+Entrée
+Trois réels (flottants).
+
+Sortie
+Affichage de "Les racines de l'equation sont ... et ..." avec les valeurs 
+adéquates (et les espacements). Réutilisez l'exemple donné sans accent.

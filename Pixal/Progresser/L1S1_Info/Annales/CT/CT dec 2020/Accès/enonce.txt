@@ -1,0 +1,16 @@
+Enoncé
+Étant donné une base de données sous la forme d'une liste de triplets 
+(langage,paradigme,année de création), écrire un programme qui
+1) définit une fonction qui détermine la liste des langages associés à un paradigme puis
+2) lit la liste l des triplets et un paradigme
+3) utilise la fonction pour calculer la liste des langages associés à ce paradigme et
+4) affiche cette liste.
+
+Entrées
+Une liste de triplets de chaînes de caractères saisie en utilisant l'instruction 
+l=eval(input()) (voir rubrique «Saisie simplifiée des listes») puis une chaîne de 
+caractères (représentant un paradigme).
+
+Sortie
+Une liste de chaîne de caractères ([] si le paradigme n'est pas dans la liste).
+

@@ -1,0 +1,23 @@
+Enoncé
+Ecrire un programme qui calcule la multiplication de deux entiers positifs à l'aide de 
+l'addition. a*b est calculé en faisant la somme a+a+.... b fois sans utiliser l'opération 
+"*" et en minimisant le nombre d'opération.
+Exemple pour a=7, b=3 le produit 7*3 est à calculer comme 7+7+7 et non comme 3+3+3+3+3+3+3
+
+Contraintes
+Minimiser le nombre d'additions
+Ne pas utiliser l'opération "*"
+
+Messages d'erreur
+Etant donné le mode de vérification de votre réponse, il se peut que le message soit 
+moins explicite qu'habituellement. Il se peut que le message fasse référence à votre 
+programme comme étant le fichier "solution.py" et indique à quelle ligne de ce fichier 
+(votre programme donc) se trouve l'erreur.
+Il est vivement conseillé de développer votre programme d'abord sur un éditeur.
+
+
+Entrées
+Deux entiers positifs
+
+Sortie
+Un entier positif

@@ -1,0 +1,31 @@
+Enoncé
+On veut savoir combien de rebonds peut faire une balle 'parfaite' en quelques secondes.
+L'approche par calcul direct étant difficile, nous allons procéder par discrétisation. 
+Nous allons découper le temps en petits intervalles de temps 'delta'. Pendant ce laps de 
+temps, la balle se déplace d'une distance delta*vitesse. La vitesse évolue en fonction 
+de la gravité et change de delta*g pendant un pas de temps delta (avec 'g' accélération 
+de la pesanteur, qu'on prendra égale à -9.81m/s2, dirigée vers le centre de la Terre).
+Lorsque la balle touche le sol, la balle rebondit sans perte de vitesse. Plus précisément, 
+nous adoptons ici les hypothèses suivantes :
+durant un intervalle delta suffisamment petit, on suppose que la vitesse reste constante 
+et égale à ce qu'elle est au début de l'intervalle on détecte un rebond lorsque 
+l'altitude h devient négative, on supposera qu'elle a rebondi à altitude 0 vers le haut 
+(et non poursuivi vers le bas) et son altitude à l'issue de l'intervalle est -h.
+
+Si on considère une balle tombant verticalement, à chaque pas de temps, on a donc :
+L'altitude change de delta*vitesse
+La vitesse change de delta*g
+Si l'altitude devient négative suite à cette évolution, alors on change le signe de 
+l'altitude et de la vitesse
+Pour le code on prendra comme constantes delta=0.001 et g=-9.81, la vitesse initiale est 
+nulle.
+Les entrées du code sont la hauteur de lâcher de la balle, ainsi que le temps de la 
+simulation.
+La sortie du code est le nombre de rebonds de la balle pendant le temps de la simulation.
+
+
+Entrée du programme
+Deux réels sur deux lignes différentes
+
+Sortie du programme
+Un entier naturel.

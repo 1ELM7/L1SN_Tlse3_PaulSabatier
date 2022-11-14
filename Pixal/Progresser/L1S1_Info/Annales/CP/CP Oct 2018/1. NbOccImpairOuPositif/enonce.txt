@@ -1,0 +1,12 @@
+Enoncé
+Écrire un programme qui détermine le nombre d'entiers impairs ou strictement positifs 
+dans une séquence saisie au clavier.
+On commence par demander le nombre n d'entiers à saisir puis les n entiers sont saisis un 
+par un. Le programme doit afficher le nombre d'entiers impairs ou strictement positifs de 
+la série.
+
+Entrée
+Un entier naturel non nul n, suivi de n entiers positifs.
+
+Sortie
+Un entier

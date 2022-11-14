@@ -1,0 +1,19 @@
+Enoncé
+Ecrire un programme qui calcule la circonférence d'un cercle de centre A de coordonées 
+(xa,ya) et passant par B (xb,yb) en définissant et utilisant la fonction distance.
+Rappel : la distance entre ces points est obtenue par : √((xb-xa)2+(yb-ya)2).
+
+Le programme doit saisir les coordonnées des points A et B sur le cercle. Ensuite il 
+calcule la distance entre A et B pour obtenir le rayon et calculer ainsi la circonférence 
+du cercle.
+Les quatre coordonnées seront saisies au clavier dans cet ordre : xa,ya,xb,yb.
+La valeur de π à utiliser est celle fournie par le module math, il suffit d'écrire pi 
+quand on a besoin de cette valeur.
+Rappel : ce module fournit aussi l'opération sqrt. Il faut ajouter en début de programme 
+la ligne from math import *.
+
+Entrée
+4 réels
+
+Sortie
+Un réel

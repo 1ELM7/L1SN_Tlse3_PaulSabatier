@@ -1,0 +1,22 @@
+Enoncé
+Définir la fonction jour_de_la_semaine qui calcule le nom du jour de la semaine à partir 
+d'une date. On va appliquer un algorithme assez simple pour « calculer » le jour de la 
+semaine d’une date sous forme de tuple d'entiers. Ce calcul, valide pour les années 
+depuis 1901 (inclus), est le suivant :
+Soit a l’année de la date considérée, de laquelle on soustrait 1901
+Soit q le quotient de a par 4
+Soit n le nombre de jours séparant le 1er janvier et le 1er jour (exclus) du mois de la 
+date considérée
+Soit j le numéro du jour de la date considérée
+Soit s la somme de a, q, n et j
+Soit r le reste de la division de (s+1) par 7.
+Si r vaut 0, le jour de la semaine de la date considérée est un dimanche, si r vaut 1, 
+c’est un lundi, etc.
+
+Paramètre de la fonction
+Un tuple composé de trois entiers (positifs) au format (annee,mois,jour).
+
+Retour de la fonction
+Une chaîne de caractères désignant un jour de la semaine
+
+

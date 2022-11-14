@@ -1,0 +1,29 @@
+Énoncé
+Vous avez été recruté(e) pour une mission par un restaurant. Ce restaurant 
+propose plusieurs menus identifiés par des numéros et fait des "réductions 
+de groupe" :
+
+- 10% sur la note pour les groupes d'au moins 4 personnes
+- 20% sur la note pour les groupes d'au moins 6 personnes
+- 30% sur la note pour les groupes d'au moins 10 personnes
+À la fin de leur repas, les clients se présentent un par un à la caisse et 
+règlent leur part. Afin de faciliter le passage en caisse, vous devez 
+produire l'addition du client (identifié par un numéro) qui se présente à 
+la caisse. Format des données
+
+
+Entrée du programme
+Ligne 1 : une liste de couples (menu,prix) où menu est le nom d'un menu 
+(chaîne de caractères) et prix son prix (nombre entier).
+Ligne 2 : une liste de tuples (numero_client,table,menu) où numero_client 
+est le numéro du client, table est le numéro de la table d'un client et 
+menu son menu choisi.
+Ligne 3 : un entier numero_client (le numéro du client qui souhaite payer)
+Les listes sont saisies en utilisant l'instruction l=eval(input()).
+
+Sortie du programme
+Un entier représentant l'addition du client numero_client arrondie (à 
+l'entier inférieur) (à vous de chercher comment faire l'arrondi). Il 
+serait judicieux de créer plusieurs fonctions effectuant chacune une tâche 
+particulière (p.ex. obtenir le numéro de table d'un client donné, obtenir 
+le nombre de clients d'une table donnée, ...)

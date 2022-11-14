@@ -1,0 +1,13 @@
+Enoncé
+Ecrire un programme qui calcule la somme de n nombres entiers reçus en 
+entrée. On commence par saisir n puis les n entiers dont on veut faire 
+la somme.
+
+Contraintes
+Les fonctions prédéfinies python (mean, average, sum, min...) sont interdites.
+
+Entrée
+Un entier naturel non nul n, et n entiers relatifs.
+
+Sortie
+Un entier correspondant à la somme.

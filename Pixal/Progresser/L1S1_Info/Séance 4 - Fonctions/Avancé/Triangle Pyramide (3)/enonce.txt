@@ -1,0 +1,16 @@
+Enoncé
+Soit la fonction dessineLigneCSep (n,c,sep) qui "dessine" n fois le caractère c séparé 
+de la chaîne sep (sans saut de ligne).
+Ecrire la DEFINITION de la fonction pyramide(n, c) qui dessine un triangle "équilatéral" 
+de côté n caractères c. Le dessin est tel que sur la 1ère ligne il y a 1 fois le 
+caractère c centré, sur la 2ème ligne 2 fois le caractère c... et ce jusqu'à n lignes 
+qui a n fois le caractère c. Les caractères sont séparés par des espaces pour permettre 
+l'alignement.
+
+Paramètres de la fonction
+Un entier naturel et un caractère.
+
+Effet de la fonction
+L'affichage d'un triangle (voir exemples).
+
+

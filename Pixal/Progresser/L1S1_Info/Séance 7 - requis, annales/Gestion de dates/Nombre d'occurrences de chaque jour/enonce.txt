@@ -1,0 +1,19 @@
+Enoncé
+Définir une fonction occ_jours_dates qui, étant donnée une liste de dates renvoie une 
+liste du nombre d'occurrence de chaque nom de jour de la semaine. Dans la liste renvoyée, 
+la valeur en position 0 sera celle du nombre de "lundi", en position 1 du nombre de 
+"mardi"...
+Une date est définie comme un tuple de trois entier au format (annee,mois,jour).
+On vous propose l'algorithme suivant :
+Initialiser une liste d'occurrence avec 7 éléments, tous à 0
+Parcourir toute la liste de dates et pour chaque date :
+calculer le nom du jour de cette date
+calculer le numéro du jour (1 pour lundi, 2 pour mardi)
+augmenter la quantité de ce numéro de jour dans la liste des occurrences
+
+Paramètre de la fonction
+Une liste de tuples dates (un tuple est composé de trois entiers (positifs) au format 
+(annee,mois,jour)). Cette liste peut être lue avec liste = eval(input()).
+
+Retour de la fonction
+Une liste d'entiers (de taille 7).

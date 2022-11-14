@@ -1,0 +1,12 @@
+Enoncé
+Ecrire la définition d'une fonction qui calcule et renvoie le nombre d'occurences du 
+chiffre 0 dans les chiffres d'un entier strictement positif donné.
+
+Contraintes
+La fonction doit s’appeler nombreDeZeros.
+
+Paramètre de la fonction
+Un entier strictement positif.
+
+Retour
+Un entier positif.

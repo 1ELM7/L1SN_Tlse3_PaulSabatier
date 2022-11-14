@@ -1,0 +1,15 @@
+Enoncé
+Ecrivez la définition d'une fonction qui, étant donné un entier positif détermine s'il 
+est premier ou non. Un nombre est premier s'il est ≥ 2 et n'est divisible que par 1 et 
+lui-même (par convention, ni 0, ni 1 ne sont premiers).
+
+Contraintes
+La fonction doit s'appeler premier.
+
+Paramètre de la fonction
+Un entier positif
+
+Retour de la fonction
+Un booléen
+
+

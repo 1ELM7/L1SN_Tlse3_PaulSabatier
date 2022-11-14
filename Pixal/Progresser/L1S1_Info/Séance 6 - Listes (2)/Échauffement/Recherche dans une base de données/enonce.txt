@@ -1,0 +1,27 @@
+Énoncé
+Une base de données stocke des informations de nature variées du moment qu'elles peuvent 
+être représentées sous forme numérique. Dans cet exercice, on simule une micro base de 
+données cinématographique où les informations sont stockées sous forme de tuples (de 
+triplets plus précisément). Ainsi le tuple ("Bacall","16/9/1924","NY") mémorise la date 
+et le lieu de naissance de la personne nommée Bacall.
+Pour rappel, un tuple est comme une liste sauf qu'on ne peut en modifier les éléments. Il 
+est entouré de parenthèses pour le distinguer d'une liste, mais on accède à ces éléments 
+comme pour une liste.
+Au final, dans cet exercice, une base de données est une liste de triplets.
+
+Etant donné une base de données sous la forme d'une liste de triplets (acteur,date de 
+naissance,lieu de naissance), écrire un programme qui 1) définit une fonction qui 
+détermine la date de naissance d'un acteur donné puis 2) lit la liste l des triplets et 
+le nom d'un acteur et 3) utilise la fonction pour afficher la date de naissance de cet 
+acteur.
+On suppose qu'il n'y a pas deux acteurs ayant le même nom dans la base de données.
+
+
+Entrée du programme
+Une liste de triplets de chaînes de caractères saisie en utilisant l'instruction 
+l=eval(input()) (voir rubrique «Saisie simplifiée des listes»), puis une chaîne de 
+caractères représentant le nom d'un acteur.
+
+Sortie du programme
+Une chaîne de caractères (représentant une date), ou le message "Absent de la base" si 
+l'acteur n'est pas dans la liste

@@ -1,0 +1,15 @@
+Enoncé
+Programmer la méthode de cryptographie à clé publique RSA telle que décrite dans le cours 
+(cryptage et décryptage). On se contentera de manipuler des entiers de taille "normale" 
+(32 ou 64 bits).
+On sera amené pour cela à écrire une fonction d'exponentation rapide modulo m (pour tout 
+entier m>=2).
+
+Entrée du programme
+La clé (n, e, d) composée de trois entiers supérieurs ou égaux à 2 tels que n=pq 
+(où p et q sont deux nombres premiers distincts), e premier avec (p-1)*(q-1), et 
+d*e=1(mod (p-1)*(q-1))
+Le message M compris entre 1 et n-1
+
+Sortie du programme
+Le code C(M), suivi sur la ligne suivante du message décrypté D(C(M)) (qui doit être égal à M).

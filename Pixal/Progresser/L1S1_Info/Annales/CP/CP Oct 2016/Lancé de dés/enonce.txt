@@ -1,0 +1,13 @@
+Enoncé
+Un joueur lance trois dés en même temps (à six faces marquées de 1 à 6). Ecrire un 
+programme qui saisit les valeurs (entières) des trois dés lancés. Si le joueur obtient 
+les nombres 1, 2 et 3 le programme affiche "Bravo", dans les autres cas, il affiche 
+"Perdu".
+
+Entrées
+Trois entiers
+
+Sortie
+Une chaîne de caractères
+
+

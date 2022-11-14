@@ -1,0 +1,12 @@
+Enoncé
+On rappelle que la suite de Fibonacci est définie par u0= 0, u1=1 et 
+un+2=un+1+un. Vous pouvez la retrouver sur la Séance 3 dans le dossier 
+Echauffement. Ecrire une fonction qui prend en argument un entier n et 
+calcule le temps d'exécution de l'algorithme d'Euclide sur l'entrée 
+( un,un-1). Comparer cette valeur avec pireEuclide(un).
+
+Entrée du programme
+Un entier n.
+
+Sortie du programme
+Un tuple de deux entiers : tempsEuclide(un,un-1),pireEuclide(un)

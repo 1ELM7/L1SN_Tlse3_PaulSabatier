@@ -1,0 +1,18 @@
+Enoncé
+Ecrire un programme qui calcule la somme de valeurs entrées au clavier.
+
+Comment savoir qu'une valeur est la dernière de la série ?
+
+c'est celle qu'on ajoute et qui fait passer la somme au-delà de 1000
+OU
+elle est négative et on ne l'ajoute pas
+
+Lorsque cette dernière valeur a été lue, votre programme ne doit pas 
+chercher à en saisir encore une car il n'y en a pas, et cela mène à une 
+erreur de type "EOF".
+
+Entrées
+Un ou plusieurs entiers naturels.
+
+Sortie
+Un entier.

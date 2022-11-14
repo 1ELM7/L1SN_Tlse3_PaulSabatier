@@ -1,0 +1,18 @@
+Enoncé
+Ecrire une fonction creer_liste(n) qui pour un entier n saisit les n éléments d'une série 
+d'entiers, qui les ajoute au fur et à mesure dans une liste et qui renvoie cette liste.
+
+Ecrire le programme qui saisit les données, appelle la fonction demandée pour faire le 
+calcul et affiche le résultat.
+On rappelle que pour créer une liste vide appelée, liste il faut écrire : liste=[]
+On signale/rappelle que pour ajouter un élément à la fin d'une liste liste
+il faut écrire liste.append(element)
+Python va faire la mise en forme naturellement, il suffit de faire print(liste).
+
+
+Entrée du programme
+Un entier naturel strictement positif représentant le nombre d'éléments, puis des entiers 
+naturels
+
+Sortie du programme
+Une liste d'entiers

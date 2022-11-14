@@ -1,0 +1,11 @@
+Enoncé
+Ecrire un programme qui lit un nombre entier positif n au clavier, puis lit une suite de 
+n nombres positifs au clavier, un par un, et affiche combien de nombres rentrés sont 
+égaux au double du nombre qui les précède.
+
+
+Entrées
+Un entier n positif puis n entiers positifs
+
+Sortie
+Un entier positif

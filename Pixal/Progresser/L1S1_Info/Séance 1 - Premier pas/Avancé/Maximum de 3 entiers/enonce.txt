@@ -1,0 +1,11 @@
+Enoncé
+On souhaite connaître le plus grand parmi trois nombres.
+
+Ecrire un programme permettant de saisir/lire trois nombres entiers, 
+de déterminer puis d'afficher le plus grand des trois.
+
+Entrée
+3 entiers 
+
+Sortie
+Affichage de la valeur adéquate.

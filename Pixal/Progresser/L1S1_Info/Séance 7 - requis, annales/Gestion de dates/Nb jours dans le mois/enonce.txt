@@ -1,0 +1,12 @@
+Enoncé
+Définir la fonction nb_jours_du_mois qui calcule le nombre de jours d'un mois. De quels 
+paramètres a-t-on besoin ? Vous utiliserez la fonction est_bissextile à l'aide de 
+l'import suivant :
+from utils import est_bissextile
+
+
+Paramètres de la fonction
+Deux entiers positifs (mois puis année)
+
+Retours de la fonction
+Le nombre de jours dans le mois de l'année demandé

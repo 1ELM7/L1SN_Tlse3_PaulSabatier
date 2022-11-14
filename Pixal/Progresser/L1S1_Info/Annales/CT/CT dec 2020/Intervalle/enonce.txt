@@ -1,0 +1,17 @@
+Enoncé
+On désire écrire un programme qui affiche tous les nombres, compris dans un intervalle 
+donné par l'utilisateur qui comportent exactement deux fois le chiffre 0. Si aucun entier 
+ne vérifie cette propriété, on affichera 0. L'utilisateur rentrera deux entiers qui 
+seront les bornes de l'intervalle. Les bornes sont incluses dans l'intervalle. 
+On suppose le premier nombre plus petit que le deuxième.
+
+Dans cet exercice, on demande bien un programme et pas une fonction.
+
+Contraintes
+Le programme doit appeler/utiliser la fonction nombreDeZeros.
+
+Entrée
+Deux entiers naturels.
+
+Sortie
+Une suite de nombre entiers

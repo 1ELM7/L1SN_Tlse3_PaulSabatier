@@ -1,0 +1,11 @@
+Enoncé
+Ecrire un programme qui lit un nombre entier n au clavier, puis lit une suite de n 
+nombres au clavier, un par un, et affiche combien d'entre eux sont positifs ou nuls.
+
+
+Entrées
+Un entier n
+n entiers
+
+Sortie
+un entier positif

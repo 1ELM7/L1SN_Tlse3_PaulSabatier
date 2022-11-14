@@ -1,0 +1,16 @@
+Enoncé
+Ecrire un programme qui calcule la multiplication de deux entiers positifs 
+à l'aide de l'addition. a*b est calculé en faisant la somme a+a+.... b fois
+Pour répéter le minimum de fois les opérations, il faut calculer le min de 
+a et b.
+Exemple pour a=7, b=3 le produit 7*3 est à calculer comme 7+7+7 et non 
+comme 3+3+3+3+3+3+3
+
+Contraintes
+Minimiser le nombre d'additions
+
+Entrées
+Deux entiers positifs
+
+Sortie
+Un entier positif

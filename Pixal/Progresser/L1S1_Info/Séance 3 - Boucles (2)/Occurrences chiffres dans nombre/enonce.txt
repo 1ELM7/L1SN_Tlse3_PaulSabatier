@@ -1,0 +1,19 @@
+Enoncé
+On souhaite connaître le nombre de fois qu'un chiffre apparaît dans un nombre.
+Ecrire un programme qui saisit un entier strictement positif et un chiffre 
+(entier compris entre 0 et 9), puis calcule  le nombre d'occurrences du 
+chiffre dans l'entier.
+
+On ne transformera pas l'entier en chaîne de caractères, mais on utilisera 
+la décomposition successive d'un nombre en chiffres.
+
+ 
+
+Entrée
+Deux entiers naturels, le premier étant strictement positif 
+(pour simplifier), le second positif également, bien sûr.
+
+ 
+
+Sortie
+Un entier naturel.

@@ -1,0 +1,13 @@
+Énoncé
+Écrire un programme qui calcule et affiche le produit des chiffres d'un entier strictement 
+positif donné en entrée.
+
+Attention : dans le langage Python, la multiplication * est prioritaire sur le modulo %. 
+Ainsi, l'expression 5*4%3 renvoie le même résultat que 20%3, c'est-à-dire 2, tandis que 
+l'expression 5*(4%3) renvoie le même résultat que 5*1, c'est-à-dire 5.
+
+Entrée du programme
+Un entier naturel strictement positif.
+
+Sortie du programme
+Un message de la forme le produit des chiffres de ... est ...

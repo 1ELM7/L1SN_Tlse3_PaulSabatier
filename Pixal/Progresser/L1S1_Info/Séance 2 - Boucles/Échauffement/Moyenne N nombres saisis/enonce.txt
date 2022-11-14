@@ -1,0 +1,13 @@
+Enoncé
+Ecrire un programme qui calcule la moyenne de n nombres reçus en entrée. 
+On commence par saisir n, le nombre de valeurs dont on veut faire la moyenne.
+
+Contraintes
+L'affichage doit respecter les exemples
+Les fonctions prédéfinies python (mean, average, sum, min...) sont interdites.
+
+Entrée
+Un entier naturel non nul n, et n entiers relatifs.
+
+Sortie
+Un réel correspondant à la moyenne

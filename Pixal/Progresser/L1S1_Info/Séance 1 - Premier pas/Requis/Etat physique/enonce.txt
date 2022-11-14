@@ -1,0 +1,13 @@
+Enoncé
+On veut savoir dans quel état physique est l'eau (liquide oui ou non) en 
+fonction de sa température.
+L'eau est sous forme de glace jusqu'à 0°C (inclus), sous forme de liquide 
+entre 0 et 100°C (exclu) et sous forme de vapeur à partir de 100°.
+L'entrée est un nombre réel représentant la température en °C, la sortie 
+est "oui" ou "non"
+
+Entrée du programme
+Un réel.
+
+Sortie du programme
+""oui" ou "non".

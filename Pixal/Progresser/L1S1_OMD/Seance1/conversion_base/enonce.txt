@@ -1,0 +1,3 @@
+Convertissez le programme de division Euclidienne de l'exercice précédent en fonction python qui prend arguments a et b (les nombres à diviser) et qui renvoie les deux résultats q et r (le quotient et le reste).
+En utilisant la fonction précédente, implantez l'algorithme de conversion d'un nombre entier naturel a en représentation en base b
+Utilisez une liste pour stocker les puissances de b

@@ -1,0 +1,33 @@
+Enoncé
+On part d'un nombre entier plus grand que zéro :
+- s’il est pair, on le divise par 2,
+- s’il est impair, on le multiplie par 3 et on ajoute 1.
+
+En répétant l’opération, on obtient une suite d'entiers positifs dont chacun ne dépend 
+que de son prédécesseur.  
+
+Par exemple, à partir de 14, on construit la suite des nombres : 
+14, 7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1, 4, 2… C'est ce qu'on 
+appelle la suite de Syracuse du nombre 14.
+
+Dans cet exemple, après que le nombre 1 a été atteint, la suite des valeurs 
+(1,4,2,1,4,2…) se répète indéfiniment en un cycle de longueur 3, appelé cycle trivial.
+
+La conjecture de Syracuse (appelée aussi conjecture de Collatz) dit qu'en suivant ce 
+schéma on finit toujours par parvenir à 1. Le nombre d'opérations ou d'étapes 
+nécessaires pour atteindre 1 est appelé le temps de vol de la suite.
+
+Par exemple, pour 3 on a 7 opérations pour retomber sur 1 (3→10→5→16→8→4→2→1), on dit 
+que 7 est le temps de vol de 3.
+
+Ecrire un programme qui calcule et affiche le temps de vol d'un entier naturel saisi en 
+entrée.
+ 
+
+Entrée
+Un entier naturel strictement positif.
+
+Sortie
+Un entier naturel.
+
+

@@ -1,0 +1,22 @@
+Enoncé
+On va chercher à compter les nombres premiers contenus dans un intervalle qui sera 
+fourni au programme.
+Un nombre entier naturel est premier si il n'est divisible que par lui-même et par 1. 
+Par convention, ni 0, ni 1 ne sont premiers. Le nombre 15 est divisible par 3, donc 
+n'est pas premier. Par contre 2 3 5 ou 17 sont premiers.
+Pour savoir si un nombre est premier, il faut vérifier qu'aucun nombre plus petit ne le 
+divise. 15 n'est pas premier car 15%5 donne 0. Par contre, 5 est premier car 5%2!=0, 
+5%3!=0, 5%4 != 0.
+Les opérateurs modulo (%) et quotient (//) ont été vus dans un précédent TP. Attention, 
+on a toujours x%1=0 et x%x=0 pour x>1
+Entrée : les deux bornes de l'intervalle dans l'ordre croissant.
+Sortie : le nombre de nombre premiers dans l'intervalle, bornes incluses.
+
+
+Entrée du programme
+Deux entiers naturels sur deux lignes différentes.
+
+Sortie du programme
+Un entier naturel.
+
+

@@ -1,0 +1,11 @@
+Enoncé
+Programmez l'algorithme d'Euclide étendu.
+Il pourra être fait appel à la fonction divEucl du TP prédécent.
+
+Entrée du programme
+Deux entiers naturels a et b.
+
+Sortie du programme
+[d,u,v], tels que d=pgcd(a,b) et u*a+v*b=d (u et v sont les coefficients calculés par l'algorithme vu en cours).
+
+

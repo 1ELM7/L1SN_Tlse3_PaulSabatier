@@ -1,0 +1,12 @@
+Enoncé
+Écrire une fonction qui affiche les éléments d’une liste passée en paramètre, chacun des 
+éléments étant affiché sur une ligne distincte.
+
+Contraintes
+La fonction doit s’appeler afficheElems
+
+Paramètres de la fonction
+Une liste
+
+Effet de la fonction
+Affichage des éléments dans l'ordre avec un seul élément par ligne.

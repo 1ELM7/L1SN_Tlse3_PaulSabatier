@@ -1,0 +1,37 @@
+Enoncé
+[Il est évidement conseillé d'avoir validé l'exercice "Syracuse (1)" avant 
+de faire celui-ci]
+
+Pour rappel, on part d'un nombre entier plus grand que zéro :
+- s’il est pair, on le divise par 2,
+- s’il est impair, on le multiplie par 3 et on ajoute 1.
+
+En répétant l’opération, on obtient une suite d'entiers positifs dont 
+chacun ne dépend que de son prédécesseur.  
+
+Par exemple, à partir de 14, on construit la suite des nombres : 14, 7, 22, 
+11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1, 4, 2… C'est ce 
+qu'on appelle la suite de Syracuse du nombre 14.
+
+Dans cet exemple, après que le nombre 1 a été atteint, la suite des 
+valeurs (1,4,2,1,4,2…) se répète indéfiniment en un cycle de longueur 3, 
+appelé cycle trivial.
+
+La conjecture de Syracuse (appelée aussi conjecture de Collatz) dit qu'en 
+suivant ce schéma on finit toujours par parvenir à 1. Le nombre d'opérations 
+ou d'étapes nécessaires pour atteindre 1 est appelé le temps de vol de la 
+suite.
+
+Contrairement à l'exercice "Syracuse (1)" qui calculait le temps de vol, 
+il s'agit cette fois, à partir du temps de vol, de retrouver un point de 
+départ de la suite (le plus petit).
+
+Ecrire un programme qui calcule et affiche le plus petit entier naturel 
+strictement positif dont le temps de vol est saisi en entrée.
+
+
+Entrée
+Un entier naturel.
+
+Sortie
+Un entier naturel strictement positif.

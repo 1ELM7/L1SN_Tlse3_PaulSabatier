@@ -1,0 +1,13 @@
+Enoncé
+Vous devez créer un jeu pour faire deviner un nombre. A chaque tour, le 
+joueur propose un nombre et l'ordinateur indique si c'est celui qu'il 
+fallait deviner. Si oui, il affiche "bravo", sinon il affiche "encore" et 
+recommence un tour.
+Le nombre à trouver est 72 (mais évidemment le joueur ne le sait pas...).
+
+Entrée
+Des entiers qui correspondent aux propositions du joueur, autant que 
+nécessaire pour trouver le bon.
+
+Sortie
+L'affichage de "bravo" lorsque le nombre est deviné.

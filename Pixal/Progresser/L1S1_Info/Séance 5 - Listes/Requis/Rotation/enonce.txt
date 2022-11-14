@@ -1,0 +1,14 @@
+Enoncé
+On veut décaler circulairement les éléments d'une liste d'entiers d'une case vers la 
+droite, le dernier élément se retrouvant en tête. Ainsi la liste [1,2,3,4] deviendra 
+[4,1,2,3]. Écrire la fonction rotation qui renvoie la liste une fois retournée. (On pourra 
+se servir de la fonction creer_liste de l'exercice "Saisir liste" pour créer la liste.)
+Ecrire le programme qui saisit les données, appelle la fonction demandée pour faire le 
+calcul et affiche le résultat.
+
+
+Entrée du programme
+Un entier naturel positif ou nul représentant le nombre d'éléments, puis des entiers.
+
+Sortie du programme
+Une liste (utilisez un print direct de la liste résultat)

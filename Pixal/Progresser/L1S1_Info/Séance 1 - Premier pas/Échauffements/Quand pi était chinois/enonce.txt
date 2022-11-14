@@ -1,0 +1,12 @@
+Enoncé
+Au Vème siècle, le mathématicien chinois Zu Chongzhi donne une approximation rationnelle 
+(sous forme de fraction) de π valant 355/113 qui restera la meilleure durant 9 siècles !! 
+Complétez les pointillés des 2ème et 3ème lignes du programme fourni afin que celui-ci 
+affiche la circonférence d'un cercle dont le rayon est saisi au clavier (=> instruction 
+float(input()) ) en prenant pour valeur de π, celle de Zu Chongzhi.
+
+Entrée du programme
+Un nombre réel positif représentant le rayon d'un cercle.
+
+Sortie du programme
+Un nombre réel positif représentant la circonférence de ce cercle.

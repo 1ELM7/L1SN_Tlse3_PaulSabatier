@@ -1,0 +1,26 @@
+Enoncé
+Modifiez le programme suivant pour qu'il affiche la somme des nombres compris entre
+m et n (bornes non incluses), et qui sont divisibles par p.
+S'il n'y a aucun nombre respectant ces contraintes, le résultat est 0.
+m, n et p sont trois entiers strictement positifs saisis au clavier, d'abord m, puis n, 
+et enfin p.
+PS : il est possible d'y parvenir en modifiant ou en déplaçant une seule ligne.
+
+
+m=int(input())
+n=int(input())
+p=int(input())
+s= 0
+i= m
+while i < n:
+  if (i+1)%p==0:
+    s= s+i+1
+  i= i+1
+print(s)
+
+
+Entrées
+Trois entiers strictement positifs
+
+Sortie
+Un entier positif

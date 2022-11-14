@@ -1,0 +1,15 @@
+Enoncé
+On cherche à savoir combien de temps du plutonium 238 (P238) sera radioactif (en tous cas 
+plus que les champignons, qui sont parmi les espèces végétales les plus radioactives).
+L'unité de radioactivité est le Bq (Becquerel).
+La demi-vie du P238 est de 87.75 ans (sa radioactivité est divisée par deux tous les 87.75 ans).
+La radioactivité d'un échantillon pur de P238 est de 633200000000 Bq par gramme.
+La radioactivité d'une chanterelle (ou girolle) de 30 g est de 12 Bq.
+Calculez le nombre d'années qu'il faut à une masse de P238 (exprimée en grammes) passée 
+en paramètre, pour être moins radioactive que cette chanterelle.
+
+Entrée du programme
+Un réel.
+
+Sortie du programme
+Un réel.

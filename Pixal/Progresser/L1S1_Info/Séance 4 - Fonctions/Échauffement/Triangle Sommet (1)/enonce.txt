@@ -1,0 +1,20 @@
+Enoncé
+Soit la fonction dessineLigneC(n,c) qui "dessine" n fois le caractère c (sans saut de 
+ligne). Attention, cette fonction a pour effet d'afficher des lignes, mais ne renvoie 
+pas de chaîne de caractères.
+Ecrire la DEFINITION de la fonction triangleSommet(n, c) qui dessine un triangle 
+"équilatéral" de côté n caractères c. Le dessin est tel que sur la 1ère ligne il y a 
+1 fois le caractère c, sur la 2ème ligne 2 fois le caractère c... et ce jusqu'à n lignes.
+L'objectif de cet exercice est d'utiliser la fonction dessineLigneC sans la définir. 
+Il n'est donc pas nécessaire de savoir comment dessineLigneC est écrite. Pour vos tests 
+sur spyder ou repl.it, elle est donnée après les exemples, mais vous pouvez l'écrire 
+vous-même.
+
+Paramètres de la fonction
+Un entier naturel et un caractère.
+
+Effet de la fonction
+L'affichage d'un triangle (voir exemples).
+
+Contraintes
+La fonction à définir doit s'appeler triangleSommet.

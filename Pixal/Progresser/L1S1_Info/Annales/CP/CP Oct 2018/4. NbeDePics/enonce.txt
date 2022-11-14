@@ -1,0 +1,13 @@
+Énoncé
+Dans une série de nombres, un pic est un nombre de la série qui est supérieur strictement 
+à celui qui le précède et celui qui le suit. La première et la dernière valeur de la 
+série ne sont pas des pics. Ainsi dans la série 2, 3, 5, 4, 7, 6, les nombres 5 et 7 sont 
+des pics, et dans la série 5, 4, 7, 8 il n'y a aucun pic.
+Écrire un programme qui étant donné une série de nombres affiche le nombre de pics de 
+cette série, la fin de la série est 0 (qui ne fait pas partie de la série).
+
+Entrée
+Une série d'entiers se terminant par 0.
+
+Sortie
+Un entier naturel

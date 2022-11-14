@@ -1,0 +1,9 @@
+Enoncé
+Ecrire la fonction qui pour une entrée n donne le nombre maximal de 
+divisions nécessaires pour calculer le pgcd de n avec un entier plus petit.
+
+Entrée du programme
+Un entier n.
+
+Sortie du programme
+La plus grande valeur de tempsEuclide(n,m) lorsque 1≤m≤n.

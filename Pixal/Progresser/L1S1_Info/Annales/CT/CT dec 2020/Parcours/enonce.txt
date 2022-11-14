@@ -1,0 +1,10 @@
+Énoncé
+Soient deux listes d'entiers, éventuellement vides. Écrire un programme qui calcule et 
+affiche la liste des sommes deux à deux de leurs éléments en ignorant les zéros. S'il 
+reste des nombres non nuls en surnombre dans une des deux listes, on les ajoute en fin.
+
+Entrées du programme
+Deux listes d'entiers saisies à l'aide de l=eval(input())
+
+Sortie du programme
+Une liste d'entiers naturels

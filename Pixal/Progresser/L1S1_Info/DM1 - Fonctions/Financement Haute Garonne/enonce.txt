@@ -1,0 +1,32 @@
+Enoncé
+Les critères d'attribution d'un financement de projet par le département de la 
+Haute-Garonne sont les suivants :
+Si le candidat est mineur (<18 ans), c'est sans condition de salaire mais ce sont ses 
+parents qui recevront le financement, sauf si c'est un mineur émancipé dans ce cas il le 
+perçoit lui-même.
+Si le candidat est majeur (>= 18 ans), il faut que son salaire soit inférieur 
+strictement à 1500 euros/mois sauf s'il est handicapé car dans ce cas il n'y a pas de 
+condition de salaire.
+Majeur ou mineur, s'il est juridiquement incapable, il n'a pas droit à ce financement.
+Écrire un programme qui définit et appelle une fonction (peut importe son nom). 
+Cette fonction calcule, en fonction de l'âge, du salaire, du statut 
+juridique ("aucun", "emancipe", "incapable") et d'un éventuel handicap si le candidat peut 
+percevoir le financement et si oui, qui le perçoit. Elle renvoie le message adéquat au 
+programme appelant qui imprime ce message.
+
+Attention, pas d'accent dans les messages d'un print.
+Contrainte
+Définir et appeler une fonction qui renvoie le message attendu selon les 4 critères donnés.
+
+Entrées du programme
+un entier (l'âge)
+un entier (le salaire)
+une chaîne de caractères (le statut : aucun, emancipe,incapable)
+"oui" ou "non" ("oui" si handicap, "non" sinon)
+
+Sortie du programme
+affichage de l'un des 3 messages possibles parmi :
+
+Pas de droit a un financement
+Financement autorise percu par le candidat
+Financement autorise percu par les parents du candidat

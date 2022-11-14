@@ -1,0 +1,34 @@
+Enoncé
+On veut savoir si un point est à l'intérieur du cercle de rayon 1, et si oui s'il est 
+plus proche de l'axe des x ou des y
+Pour savoir si un point est dans un cercle, on calcule sa distance au centre et on 
+regarde si cette distance est inférieure ou égale au rayon, ici 1.
+Pour rappel, si les coordonnées d'un point sont x et y, alors la distance à l'origine 
+(ici le centre du cercle) sera (en python) sqrt(x*x+y*y).
+Si le point est hors du cercle on affichera "hors cercle", sinon on affichera "axe x" si 
+il est plus proche de l'axe des x, 'axe y' si il est plus proche de l'axe des y et 
+'diagonale' si il est exactement à la même distance
+Attention, les coordonnées x et y peuvent être négatives.
+Rappel :
+la racine carrée de x s'obtient avec sqrt(x). Il faut prévoir de commencer le code par 
+from math import *
+la valeur absolue de x s'obtient avec abs(x).
+
+Pour aller plus loin :
+Si l'on prend √0.5 comme valeur pour x et une valeur inférieure à √0.5 pour y, le point 
+(x,y) est-il dans le cercle ?
+Faites le test en remplaçant les saisies par les affectations x=sqrt(0.5) et 
+y=sqrt(49999999999999999/10**17)
+Votre programme devrait afficher "diagonale". Comment l'expliquez-vous ? Comment limiter 
+ce type d'erreur ? (voir ci-dessous)
+
+Si l'on réfléchit un peu, on peut se passer de sqrt() : un point est dans un cercle si 
+le carré de sa distance au centre est inférieur au carré du rayon du cercle, ici donc 1. 
+Modifiez légèrement votre programme sans plus calculer de racines carrées et refaites le 
+test avec les deux valeurs indiquées ci-dessus.
+
+Entrée du programme
+Deux réels sur deux lignes différentes, ce qui nécessite deux input.
+
+Sortie du programme
+"axe x", "axe y", "diagonale", "hors cercle".

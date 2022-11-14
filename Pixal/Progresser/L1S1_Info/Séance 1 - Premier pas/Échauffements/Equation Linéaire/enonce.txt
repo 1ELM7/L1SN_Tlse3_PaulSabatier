@@ -1,0 +1,9 @@
+Enoncé
+Saisir 2 réels a (différent de 0) et b et de résoudre l'équation ax+b=0.
+
+Entrée
+Deux réels.
+
+Sortie
+Affichage de "La solution... est ..." avec les valeurs adéquates 
+(et les espacements).

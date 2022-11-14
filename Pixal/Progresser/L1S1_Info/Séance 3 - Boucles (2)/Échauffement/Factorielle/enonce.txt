@@ -1,0 +1,12 @@
+Énoncé
+Écrire un programme qui permet de calculer la factorielle d'un entier naturel n , notée n!
+Sa définition mathématique est la suivante : si n = 0 alors n! = 1 sinon n! = n * (n-1)!.
+Si l'on développe cette définition, avec n=4 par exemple, on trouve:
+4! = 4 * 3! = 4 * (3 * 2!) = 4 * (3 * (2 * 1!)) = 4 * (3 * (2 * (1 * 0!))) = 4 * (3 * (2 * (1 * 1))) = 24.
+Donc, n! est égal au produit des nombres de 1 à n. Inspirez-vous du programme qui calcule la somme des nombres de 1 à n...
+
+Entrée du programme
+Un entier naturel.
+
+Sortie du programme
+Un entier naturel .

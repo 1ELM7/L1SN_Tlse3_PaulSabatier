@@ -1,0 +1,10 @@
+Enoncé
+Ecrire un script qui, étant donné deux entiers naturels non nuls a et m, 
+renvoie l'inverse de a modulo m si celui-ci existe.
+
+Entrée du programme
+Un entier naturel a, un entier naturel m>=2.
+
+Sortie du programme
+S'il existe un entier b compris entre 1 et m-1 tel que a*b=1(mod m), 
+le renvoyer. Sinon, renvoyer "non inversible".

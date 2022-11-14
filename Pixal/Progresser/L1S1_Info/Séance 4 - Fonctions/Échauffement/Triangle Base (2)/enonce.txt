@@ -1,0 +1,14 @@
+Enoncé
+Soit la fonction dessineLigneC(n,c) qui "dessine" n fois le caractère c (sans saut de 
+ligne).
+Ecrire la DEFINITION de la fonction triangleBase(n, c) qui dessine un triangle 
+"équilatéral" de côté n caractères c. Le dessin est tel que sur la 1ère ligne il y a n 
+fois le caractère c, sur la 2ème ligne n-1 fois le caractère c... et ce jusqu'à n lignes 
+qui n'a qu'un caractère c.
+
+
+Paramètres de la fonction
+Un entier naturel et un caractère.
+
+Résultat de la fonction
+L'affichage d'un triangle.

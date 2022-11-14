@@ -1,0 +1,15 @@
+Enoncé
+Ecrire un programme qui calcule la somme de nombres reçus en entrée. 
+On saisit les entiers 1 par 1, en accumulant leur somme au fur et à mesure, 
+jusqu'à ce que l'entier 0 soit saisi.
+
+Contraintes
+L'affichage doit respecter les exemples
+Les fonctions prédéfinies python (mean, average, sum, min...) sont 
+interdites.
+
+Entrée
+Des entiers relatifs, le dernier étant 0.
+
+Sortie
+Un entier correspondant à la somme.

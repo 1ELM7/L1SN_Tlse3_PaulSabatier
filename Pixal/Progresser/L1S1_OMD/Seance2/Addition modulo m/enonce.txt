@@ -1,0 +1,9 @@
+Enoncé
+Ecrire une fonction qui effectue, prenant en entrée deux entiers positifs, 
+renvoie leur somme modulo m.
+
+Entrée du programme
+Deux entiers naturels a et b, un entier m>=2.
+
+Sortie du programme
+L'entier c tel que 0<=c<=m-1 et a+b=c (mod m)

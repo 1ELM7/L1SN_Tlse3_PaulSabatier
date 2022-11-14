@@ -1,0 +1,14 @@
+Énoncé
+Écrire la fonction premiers_indices qui retourne la liste des indices (dans l'ordre 
+croissant) des 3 premières occurrences d'une valeur dans une liste. Si la valeur est 
+présente moins de 3 fois dans la liste, la longueur de la liste retournée est inférieure 
+à 3.
+Écrire le programme qui saisit une liste d'entiers et un entier, appelle la fonction 
+premiers_indices avec ces paramètres et affiche la liste retournée par la fonction.
+
+Entrées
+Une liste d'entiers saisie en utilisant l'instruction liste=eval(input()).
+Un entier.
+
+Sortie
+Une liste d'entiers naturels

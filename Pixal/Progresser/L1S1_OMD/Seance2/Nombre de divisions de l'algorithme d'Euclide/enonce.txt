@@ -1,0 +1,10 @@
+Enoncé
+Modifier la fonction euclide pour qu'il renvoie le nombre de 
+division euclidienne réalisé durant son exécution.
+
+Entrée du programme
+Deux entiers naturels a et b.
+
+Sortie du programme
+Un entier qui représente le nombre de divisions euclidienne 
+réalisées par le programme euclide lorsqu'il calcule le pgcd de a et b.

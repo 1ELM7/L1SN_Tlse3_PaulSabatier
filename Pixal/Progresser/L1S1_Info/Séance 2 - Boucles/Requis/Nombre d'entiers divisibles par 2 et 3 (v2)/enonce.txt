@@ -1,0 +1,12 @@
+Enoncé
+Ecrire un programme qui compte combien il y a d'entiers strictement 
+positifs divisibles par 2 et par 3 dans une séquence saisie au clavier.
+La séquence sera terminée lorsque l'utilisateur saisira l'entier 0.
+Le programme doit afficher le nombre d'entiers divisibles par 2 et par 3 
+trouvés (0 ne sera pas compté).
+
+Entrée
+une suite d'entiers strictement positifs terminée par 0
+
+Sortie
+Un entier

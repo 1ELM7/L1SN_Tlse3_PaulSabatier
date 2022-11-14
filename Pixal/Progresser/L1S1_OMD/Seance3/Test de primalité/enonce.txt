@@ -1,0 +1,15 @@
+Enoncé
+Ecrire la fonction est_premier qui teste si un nombre entier naturel donné 
+en paramètre est premier ou non. Ecrire le programme faisant la saisie d'un 
+entier et l'affichage du test sur cet entier.
+
+Remarque : Attention à optimiser votre fonction afin de pouvoir tester des grands 
+nombres.
+
+Remarque : Vous ne pouvez considérer réussi cet exercice qu'à condition d'avoir 100%.
+
+Entrée du programme
+Un entier naturel n.
+
+Sortie du programme
+True si n est premier, False sinon.

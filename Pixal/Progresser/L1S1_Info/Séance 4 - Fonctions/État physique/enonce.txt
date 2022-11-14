@@ -1,0 +1,16 @@
+Enoncé
+Ecrire la DEFINITION de la fonction qui, étant donné la température à 
+laquelle est portée de l'eau pure sous une pression de 1 atm, renvoie si 
+le corps est à l'état solide, liquide, gaz ou en transition.
+
+Contraintes
+La fonction doit s'appeler etatPhysique.
+Il est demandé d'écrire la définition de la fonction, pas son appel. 
+Pour les tests sur repl.it (ou autre), pensez à ajouter saisie et 
+affichage et bien sûr l'appel.
+
+Paramètre de la fonction
+Une température (réelle) comprise entre −273,15°C et 6000°C.
+
+Retour de la fonction
+"solide", "liquide", "gaz" ou "transition" (chaîne de caractères)

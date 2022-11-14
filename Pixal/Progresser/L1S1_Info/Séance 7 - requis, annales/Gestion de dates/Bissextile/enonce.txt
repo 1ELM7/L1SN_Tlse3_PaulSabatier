@@ -1,0 +1,15 @@
+Enoncé
+Définir la fonction est_bissextile qui détermine si une année est bissextile. Une année 
+est bissextile si elle est divisible par 4 mais pas par 100, ou si elle est divisible par 
+400.
+
+Contraintes
+La fonction doit s'appeler est_bissextile.
+Il est demandé d'écrire la définition de la fonction, pas son appel. Pour les tests sur 
+spyder (ou autre), pensez à ajouter saisie et affichage et bien sûr l'appel.
+
+Paramètre de la fonction
+Un entier positif
+
+Retour de la fonction
+Un booléen

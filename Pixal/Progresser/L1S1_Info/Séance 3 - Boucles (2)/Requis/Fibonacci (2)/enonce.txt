@@ -1,0 +1,34 @@
+Enoncé
+La suite de Fibonacci est une suite d'entiers dans laquelle chaque terme 
+est la somme des deux termes qui le précèdent. Elle commence généralement 
+par les termes 0 et 1, et ses premiers termes sont : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
+
+Sa définition est :
+Fibo(0)=0, Fibo(1)=1
+pour n≥0 : Fibo(n+2) = Fibo (n+1) + Fibo(n)
+
+On veut afficher la somme des termes pairs de la suite plus petits ou égaux qu'un entier donné.
+
+Dans cet exercice, n'hésitez pas à utiliser papier/crayon pour réfléchir et à faire des 
+tests sur repl.it (ou autre). On va utiliser une boucle pour calculer les termes 
+successifs de cette suite.
+
+Commencez par écrire un programme qui calcule et affiche simplement les termes de la 
+suite inférieurs à la borne donnée (nb : cette suite est strictement croissante, donc 
+une fois la borne atteinte, on peut s'arrêter).
+
+Pour cela, vous pouvez utiliser trois variables : Fib0, Fib1 et Fib2.
+
+À chaque début d'itération Fib0 doit contenir la valeur de Fibo(n), Fib1 celle de 
+Fibo(n+1), et Fib2 celle de Fib(n+2).
+
+Puis il faut s'arranger pour qu'en fin d'itération Fib0, Fib1 et Fib2 contiennent 
+les valeurs Fibo(n+1), Fibo(n+2) et Fibo(n+3), et on recommence, jusqu'à la borne fixée.
+
+Enfin modifiez votre programme pour sommer les termes pairs.
+
+Entrée du programme
+Un entier naturel.
+
+Sortie du programme
+Un entier naturel.

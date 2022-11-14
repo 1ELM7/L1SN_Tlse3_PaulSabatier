@@ -1,0 +1,4 @@
+Etant donnés un entier a et un entier naturel n, implantez en python l'algorithme d'exponentation rapide du cours qui consiste à différencier les cas impairs des cas pairs.
+
+Entrée :
+Vous ne pouvez pas utiliser l'opération ** . Si vous utilisez l'exponentiation naïve, vous risquer un dépassement de temps.

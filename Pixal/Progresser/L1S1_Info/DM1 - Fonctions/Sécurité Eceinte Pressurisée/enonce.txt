@@ -1,0 +1,27 @@
+Enoncé
+A partir de seuils sur la pression et le volume d'une enceinte pressurisée, écrire un 
+programme permettant de simuler le comportement suivant :
+si le volume et la pression sont supérieurs aux seuils, on affiche la chaîne de 
+caractères "Pression ET volume eleves. Stoppez !"; (sans accents)
+si seule la pression est supérieure à la pression seuil, on affiche le message "Il faut augmenter le volume";
+si seul le volume est supérieur au volume seuil, on affiche le message 
+"Vous pouvez diminuer le volume";
+sinon on affiche "Tout va bien !".
+
+Le programme doit définir et appeler la fonction indicationsPression. Cette fonction qui 
+a 4 paramètres, retourne le message attendu parmi les 4 messages définis ci-dessus. 
+Le programme fera la saisie des 4 valeurs flottantes dans l'ordre :
+seuil de pression,
+seuil de volume,
+pression dans l'enceinte et
+volume de l'enceinte.
+et affichera le résultat de l'appel de la fonction sur les nombres saisis.
+
+Contrainte
+Définir et appeler une fonction qui renvoie le message attendu parmi les 4 proposés selon les 4 valeurs données.
+
+Entrée du programme
+4 réels.
+
+Sortie du programme
+L'un des 4 messages possibles.

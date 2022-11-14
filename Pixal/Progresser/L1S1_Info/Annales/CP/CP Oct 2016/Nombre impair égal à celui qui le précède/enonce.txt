@@ -1,0 +1,12 @@
+Enoncé
+Ecrire un programme qui lit un nombre entier n au clavier, puis lit une suite de n 
+nombres positifs au clavier, un par un, et affiche combien de fois il y a un nombre 
+impair égal à celui qui le précède plus 1.
+
+
+Entrées
+Un entier n
+n entiers positifs
+
+Sortie
+un entier positif

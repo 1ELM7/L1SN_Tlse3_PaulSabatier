@@ -1,0 +1,12 @@
+Enoncé
+Ecrire la DEFINITION de la fonction qui, étant donné trois entiers détermine si le 
+premier est dans l'intervalle (strict) défini par les deux autres.
+
+Contraintes
+La fonction doit s'appeler dansIntervalle.
+
+Paramètres de la fonction
+Trois entiers
+
+Retour de la fonction
+Un booléen
