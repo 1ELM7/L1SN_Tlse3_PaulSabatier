@@ -1,0 +1,23 @@
+Enoncé
+Les matrices CSR (Compressed Sparse Row) permettent de représenter des matrices creuses. Ecrire la fonction convertir_en_dense qui construit la matrice dense à partir des éléments d'une matrice creuse. Voici les éléments qui permettent de représenter une matrice creuse :
+shape : le couple (dim_l, dim_c) qui donne la taille de la matrice à deux dimensions (dim_l = nombre de lignes, dim_c = nombre de colonnes)
+Dans l'exemple 3 lignes, 3 colonnes.
+data : contient toutes les données dans l'ordre ligne par ligne, colonne par colonne.
+Dans l'exemple il y a 6 éléments non nuls à placer dans l'ordre en partant de la ligne 0 et de la colonne 0.
+indptr : de dimension dim_l + 1, donne, pour chaque ligne l, le nombre d'éléments non nuls présents jusqu'à la ligne l-1 incluse. La première valeur est toujours 0 (on n'a aucune valeur avant la ligne 0).
+Dans l'exemple, il y a deux éléments non nuls (1 et 2) présents jusqu'à la ligne 1 exclue ; 3 éléments non nuls (1, 2 et 3) jusqu'à la ligne 2 exclue et enfin 6 éléments (tous les éléments) jusqu'à la ligne 3 exclue (pas de ligne 3).
+On sait donc qu'on doit placer 1 et 2 en ligne 0; 4 en ligne 1 et 5,3,1 en ligne 2.
+indices : de même taille que data, contient, pour chaque indice i la colonne de l'élément data[i].
+Dans l'exemple, on peut déterminer que 1 et 2 sont à placer en ligne 0, la liste des indices indique la colonne où les placer.
+Donc, les valeurs 1 (resp. 2) en ligne 0 à la colonne 0 (resp. 2) ; pour la ligne 1, on veut placer la valeur 4 à la colonne 1 ; et enfin les valeurs 5, 3, 1 aux colonnes resp. 0, 1 ,2.
+
+Contraintes
+La fonction doit s'appeler convertir_en_dense.
+
+Pixal ne supportant pas numpy, toutes les matrices sont implémentées comme des listes de listes.
+
+Paramètres de la fonction
+Couple d'entier, 3 listes d'entiers.
+
+Retour de la fonction
+Une liste de listes d'entiers

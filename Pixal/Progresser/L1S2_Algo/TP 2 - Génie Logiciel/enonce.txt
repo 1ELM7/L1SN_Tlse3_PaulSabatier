@@ -1,0 +1,52 @@
+De la programmation au génie logiciel
+Etude de cas : le calcul du score d'une partie de bowling
+Description du problème
+Vous devez écrire dans un fichier "Bowling.py" une fonction principale accompagnée d'un ensemble de fonctions utilitaires permettant le calcul du score total d'une partie de bowling pour un joueur à partir de la séquence valide de lancers pour ce joueur.
+
+Vos fonctions seront appelées par un programme principal décrit dans un fichier "TestBowling.py" exécutant un ensemble de fonctions permettant de tester la validité de vos fonctions. Le programme principal (programme de tests) est fourni dans l'énoncé.
+
+Synthèse des règles permettant le calcul du score
+
+Chaque partie de bowling est composée de 10 jeux (frames) pour un joueur.
+Dans chaque jeu, le joueur dispose de deux essais pour faire tomber toutes les quilles.
+Si en deux essais, le joueur ne réussit pas à faire tomber toutes les quilles, le score pour ce jeu est le nombre total de quilles tombées lors de ses deux essais.
+Si en deux essais, le joueur fait tomber toutes les quilles, on dit que le joueur a réalisé un "spare" et son score pour le jeu courant est de 10 plus le nombre de quilles tombées lors du prochain lancer (dans le prochain jeu).
+Si lors du premier lancer dans le jeu, le joueur fait tomber toutes les quilles, on dit que le joueur a réalisé un "strike" ; le jeu en cours est terminé et le score sur ce jeu est de 10 plus le nombre total de quilles tombées lors des deux prochains lancers.
+Si le joueur réalise un spare ou un strike sur le dernier jeu, il bénéfice respectivement d'un ou deux lancers complémentaires afin de pouvoir comptabiliser les points du dernier jeu. Si durant le ou les lancers complémentaires, le joueur fait tomber toutes les quilles, le processus n'est pas reconduit, la partie est terminée pour le joueur.
+Le score de la partie est la somme des scores de chaque jeu.
+2. Implanter le fichier "Bowling.py"¶
+Préparation de l'environnement de travail
+si vous travaillez sur repl.it :
+Créez un fichier de travail intitulé "Bowling.py".
+Dans le fichier "main.py" copiez le code proposé dans le paragraphe suivant.
+Lancez le run (qui va exécuter le "main.py" et constatez qu'aucun test ne passe !
+si vous travaillez sur spyder
+Créez un dossier de travail intitulé "ws_bowling".
+Dans votre dossier de travail créez le fichier "TestBowling.py" et copiez dans le fichier le code proposé dans le paragraphe suivant.
+Dans votre dossier de travail, créez le fichier "Bowling.py".
+Lancez le programme "TestBowling.py" et constatez qu'aucun test ne passe !
+Ecriture progressive du fichier "Bowling.py".
+Pour chaque erreur signalée par les tests, vous développerez la fonction qui provoque l'erreur en vous aidant du message d'erreur et du fichier "TestBowling.py". Dans le fichier "TestBowling.py" vous retrouvez :
+
+la description de la fonctionnalité,
+les paramètres à utiliser,
+le jeu de tests que doit "passer" la fonction à développer.
+
+C'est qu'un assert n'est pas "passé" et donc qu'il faut revoir le code de la fonction concernée pour comprendre quel est le rôle de cette fonction et comment la corriger.
+
+
+
+
+Voici donc les étapes à suivre pour écrire votre programme complet :
+
+Traitement des calculs de scores dans les cas simples
+Complétez le fichier "Bowling.py" en écrivant le code permettant de faire passer les tests du fichiers "TestBowling.py" apparaissant sous la banière "1. tests dans les cas simples".
+Traitement des calculs de scores en prenant en compte les spares
+Modifiez le fichier "Bowling.py" en écrivant le code permettant de faire passer les tests du fichiers "TestBowling.py" apparaissant sous la banière "1. tests dans les cas simples" et sous la banière "2. tests prenant en compte les spares".
+Traitement des calculs de scores en prenant en compte les strikes
+Modifiez le fichier "Bowling.py" en écrivant le code permettant de faire passer tous les tests du fichier "TestBowling.py".
+3. Etude du fichier de tests
+Le programme doit passer l'ensemble des tests fournis dans le fichier "TestBowling.py" dont le code est détaillé ci-dessous. Les tests spécifient la structure des données à utiliser, les fonctions à implanter, et bien sûr des jeux de tests pour lesquels les résultats attendus sont explicités. Dans le cadre d'un développement logiciel, ce serait à vous de définir ces tests.
+
+4. Compléter le fichier de tests "TestBowling.py"¶
+Complétez le fichier de tests pour rajouter des cas de tests sur la fonction "calcule_score_partie" permettant d'avoir une couverture plus exhaustive des cas traités dans notre fichier de tests. Par exemple, des cas de tests mixant jeux nominaux, strikes et spairs.

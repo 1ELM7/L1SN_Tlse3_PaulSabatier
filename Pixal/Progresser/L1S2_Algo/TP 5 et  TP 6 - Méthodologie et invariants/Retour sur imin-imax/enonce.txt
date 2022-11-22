@@ -1,0 +1,15 @@
+Objectif
+Dans cet exercice, il vous est demandé de développer le code à partir des propriétés 
+(objectif, terminaison) trouvées en cours.
+
+Enoncé
+Retour sur le programme qui calcule les indices du minimum et du maximum d'une liste 
+contenant au moins 2 éléments tous distincts (vu en cours). La liste ne doit pas être 
+modifiée, on n'utilise les fonctions prédéfinies min et max (ni même index.min/index.max) 
+de python que pour la vérification.
+
+Entrée du programme
+Une liste d'entiers de taille au moins 2 (lue avec eval(input()))
+
+Sortie du programme
+Le couple d'entier imin, imax

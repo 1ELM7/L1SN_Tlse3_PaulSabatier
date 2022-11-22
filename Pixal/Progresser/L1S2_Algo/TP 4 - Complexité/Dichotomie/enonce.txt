@@ -1,0 +1,27 @@
+Énoncé
+Écrire la fonction recherche_par_dichotomie qui accepte en paramètres un tableau non vide d’entiers tab trié par ordre croissant ainsi qu’un entier valeur et retourne l’indice de la dernière occurrence de valeur dans le tableau tab si celle-ci existe ou -1 si valeur n’est pas présente dans tab. L’algorithme utilisé doit être une recherche par dichotomie.
+
+Écrire le programme principal qui lit en entrée le tableau tab ainsi que l'entier valeur, appelle la fonction recherche_par_dichotomie et affiche l'indice retourné par cette fonction.
+
+On pourra (mais ce n'est pas obligatoire) avancer dans la résolution du problème de la façon suivante :
+
+Traiter tout d'abord le cas où l'entier valeur est présent dans tab. Le code devra alors passer les 6 premiers tests.
+Traiter ensuite les cas où l'entier valeur n'est pas présent dans tab. Le code devra alors passer les 4 derniers tests.
+Contraintes
+La fonction et le programme doivent :
+
+Respecter l'abstraction Tableau (Cf. CTD 2).
+Ne pas utiliser d'autre tableau que celui donné en entrée.
+Utiliser un algorithme de dichotomie. Le nombre de lectures autorisées dans le tableau est donc limité.
+Ne pas utiliser de fonction élaborée de Python pour déterminer l'indice de la valeur (find, index, ...).
+Le nombre optimum de lectures est log2(len(tab)+1)+3.
+
+Lorsque sur un test le nombre d'écritures ou de lectures dans le tableau est supérieur à l'optimum de ce que l'on peut obtenir, le pourcentage de réussite est calculé de la façon suivante :
+
+pourcentage = (100*(nb_lectures_optimum+nb_ecritures_optimum))//(nb_lectures+nb_ecritures)
+
+Entrées
+Un tableau d'entiers (trié par ordre croissant) lu en utilisant l'expression eval(input()), suivi d'un entier.
+
+Sortie
+Un entier

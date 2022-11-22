@@ -1,0 +1,31 @@
+Enoncé
+Soit le programme suivant qui prétend calculer, selon un modèle dichotomique, la partie entière de la racine carré d’un naturel n>=0. Ce programme est commenté par des asserts (qui sont exacts). 
+Programme qui prétend effectuer ce calcul:
+
+n = int(input())
+a = 0
+b = n+1
+assert a < b <= n+1 and a**2 <= n < b**2, 'erreur init'
+while a != b:
+   assert b-a > 0, 'erreur variant'
+   t = b-a
+   d = (a+b)//2
+   if d*d < n:
+      a = d
+   else:
+      b = d
+   assert a < b <= n+1 and a**2 <= n < b**2, 'erreur iteration'
+   assert t > b-a, 'boucle infinie'
+
+assert a < b <= n+1 and a**2 <= n < (a+1)**2 , 'erreur objectif'
+
+print (a)
+
+Questions
+Testez le programme avec les entrées suivantes : 15 puis 16. Corriger chaque erreur à sa détection.
+Indice : il n'y a qu'une erreur à corriger par entrée.
+Entrée du programme
+un entier
+
+Sortie du programme
+un entier

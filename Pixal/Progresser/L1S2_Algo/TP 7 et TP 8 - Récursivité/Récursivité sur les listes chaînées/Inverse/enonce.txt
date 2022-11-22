@@ -1,0 +1,9 @@
+Enoncé
+On souhaite écrire la fonction inverser qui accepte en paramètre une liste chaînée et retourne la liste chaînée constituée des mêmes éléments mais dans l'ordre inverse.
+Écrire le programme qui saisit une liste (avec eval(input())) et affiche le résultat retourné par la fonction inverser.
+
+Entrée du programme
+Une liste chaînée (implémentée avec des tuples).
+
+Sortie du programme
+Une liste chaînée.

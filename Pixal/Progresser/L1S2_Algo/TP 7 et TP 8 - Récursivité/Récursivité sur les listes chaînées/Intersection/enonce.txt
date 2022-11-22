@@ -1,0 +1,14 @@
+Énoncé
+Écrire la fonction récursive elements_communs qui accepte en paramètres deux listes chaînées d'entiers liste1 et liste2 strictement croissantes, et retourne une nouvelle liste contenant, en ordre strictement croissant, les éléments communs à liste1 et liste2.
+
+Écrire le programme qui saisit les deux listes à la suite (avec eval(input())) et affiche le résultat retourné par la fonction.
+
+Contrainte :
+
+La fonction elements_communs doit réaliser un parcours simultané des deux listes. Le nombre total d'appels de la fonction elements_communs ne doit donc jamais dépasser la somme des longueurs des deux listes.
+
+Entrée du programme
+Deux listes chaînées d'entiers (implémentées avec des tuples).
+
+Sortie du programme
+Une liste chaînée.

@@ -1,0 +1,22 @@
+ENONCE
+
+Algorithme
+
+Étant donnée une liste a de tuples (note,nom), on commence par créer une liste b contenant m+1 paquets vides (b est donc une liste de listes vides).
+On parcourt la liste a élément après élément. Soit a[i] l'élément courant avec a[i]=(x,y) :
+x indique dans quel paquet il faut ranger a[i], on ajoute donc le couple a[i] au paquet (en préservant l'ordre sur les noms pour les ex aequo).
+Une fois ce parcours fait, on a dans b une liste de paquets (chaque paquet étant une liste de tuples).
+On transforme ensuite cette liste de paquets en liste de tuples.
+
+Travail à réaliser
+Écrire une fonction creerListePaquet(m) qui créé une liste de m+1 paquets vides.
+Écrire une fonction aplatir(l) qui prend en entrée une liste de listes de tuples (note,nom) et en fait une liste de tuples.
+Écrire une fonction triPaquets(l,m) qui prend en entrée une liste de tuples (note,nom) avec 0<=note<=m et retourne la liste triée par ordre croissant de note en préservant l'ordre sur les noms pour les ex aequo.
+
+Entrée du programme
+Un entier représentant la valeur maximale possible pour la note
+
+Une liste de tuples (note,nom) lue avec l'instruction eval(input())
+
+Sortie du programme
+Une nouvelle liste de tuples (note,nom) triée par ordre croissant de note en gardant l'ordre inial des noms pour des notes identiques.

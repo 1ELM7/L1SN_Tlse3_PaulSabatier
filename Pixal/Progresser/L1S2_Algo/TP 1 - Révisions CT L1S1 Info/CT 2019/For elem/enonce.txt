@@ -1,0 +1,14 @@
+Enoncé
+Ecrire un programme qui transforme le programme suivant en remplaçant la boucle for par 
+une boucle while.
+
+liste = eval(input())
+for elem in liste :
+    print(elem)
+
+
+Entrée du programme
+Une liste d'entiers naturels.
+
+Sortie du programme
+Les entiers de la liste.

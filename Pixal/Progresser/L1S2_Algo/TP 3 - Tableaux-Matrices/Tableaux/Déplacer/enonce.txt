@@ -1,0 +1,22 @@
+Énoncé
+Écrire la fonction decaler qui accepte en paramètres un tableau d'entiers non vide tab 
+et deux entiers i_source et i_destination représentant deux indices valides dans le 
+tableau tab. La fonction déplace l'élément du tableau situé à l'indice i_source de façon 
+à ce qu'il soit dorénavant situé à l'indice i_destination, les éléments situés entre les 
+deux indices sont décalés pour pouvoir insérer l'élément à déplacer à l'indice 
+i_destination.
+
+Si i_source<i_destination, les éléments sont déplacés d'un cran vers la gauche.
+Si i_source>i_destination, les éléments sont déplacés d'un cran vers la droite.
+Écrire le programme principal qui lit les entrées, appelle la fonction decaler avec ces 
+mêmes entrées et affiche le tableau retourné par la fonction.
+
+Contraintes
+La fonction et le programme doivent respecter l'abstraction Tableau (Cf. CTD 2).
+Vous ne devez pas utiliser d'autre tableau que celui donné en entrée.
+
+Entrées
+Un tableau d'entiers, lu en utilisant l'expression eval(input()), suivi de deux entiers.
+
+Sortie
+Le tableau modifié

@@ -1,0 +1,8 @@
+Enoncé
+Soit une paire d'entiers positifs (a,b). On cherche à connaitre la dernière position de 
+l'entier positif a pour laquelle les deux entiers positifs (a,b) apparaissent 
+consécutivement dans une suite d’entiers. Ecrire un programme qui lit deux entiers 
+positifs a et b entrés au clavier, puis lit des entiers tant que la valeur -1 n'est pas 
+rencontrée. Le programme affiche la dernière position de l'entier a quand il est 
+directement suivi de l'entier b dans la séquence d'entiers positifs saisie. Si la paire 
+(a,b) n'apparait pas dans la séquence saisie, le programme retourne 0.

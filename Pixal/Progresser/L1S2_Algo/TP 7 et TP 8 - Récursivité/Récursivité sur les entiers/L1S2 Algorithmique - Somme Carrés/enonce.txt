@@ -1,0 +1,8 @@
+Enoncé
+Ecrire la fonction somme_carres qui étant donné un entier n positif ou nul (sans vérification) calcule la somme des carrés des entiers de 0 à n. Ecrire le programme qui saisit l'entier et affiche le résultat calculé par la fonction.
+
+Entrée du programme
+Un entier positif ou nul.
+
+Sortie du programme
+Un entier positif ou nul.

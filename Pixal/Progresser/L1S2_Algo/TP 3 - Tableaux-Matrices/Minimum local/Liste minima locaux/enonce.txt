@@ -1,0 +1,15 @@
+Sujet
+Ecrire une fonction liste_minima_locaux qui renvoie la liste des minima locaux d'une 
+matrice (liste de listes d'entiers).
+Il est possible d'utiliser les fonctions est_minimum_local(matrice,ligne,colonne), 
+est_position_valide(matrice,ligne,colonne) et 
+prochain_voisin(ligne,colonne,limite_gauche,limite_droite) des questions précédentes que 
+vous pouvez appeler avec from lib import *. Ecrire le programme principal qui lit une i
+matrice (liste de listes d'entiers) et dans l'ordre (gauche/droite, haut/bas), liste les 
+minima locaux dans la matrice en utilisant la fonction est_minimum_local.
+
+Entrée du programme
+Une liste de listes d'entiers avec eval(input()) .
+
+Sortie du programme
+Une liste de couples d'entiers.

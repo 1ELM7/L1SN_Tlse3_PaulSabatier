@@ -1,0 +1,12 @@
+Énoncé
+L'objectif de cet exercice est de mettre en oeuvre l'algorithme de tri par insertion sur une liste chaînée.
+
+Écrire la fonction récursive inserer_dans_liste_triee qui accepte en paramètres une liste chaînée triée par ordre croissant ainsi qu'une valeur. La fonction insère cette nouvelle valeur dans la liste chaînée, de telle façon que la liste reste triée par ordre croissant.
+Écrire la fonction récursive tri_insertion qui accepte en paramètre une liste chaînée et retourne cette liste triée par ordre croissant.
+Écrire le programme qui saisit une liste (avec eval(input())) et affiche le résultat retourné par la fonction tri_insertion.
+
+Entrée du programme
+Une liste d'entiers (implémentée avec des tuples).
+
+Sortie du programme
+Une liste d'entiers.

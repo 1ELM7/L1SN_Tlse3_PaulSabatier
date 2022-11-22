@@ -1,0 +1,13 @@
+Sujet
+Ecrire une fonction est_position_valide(matrice,ligne,colonne) qui étant donné une 
+matrice (liste de liste d'entiers), un indice de ligne et un indice de colonne, renvoie 
+si la position (ligne,colonne) est valide dans la matrice.
+
+Attention! : vous devrez aussi recopier le programme donné en fin d'exercice afin de 
+pouvoir tester votre fonction.
+
+Paramètres de la fonction
+Une matrice et deux entiers.
+
+Retour de la fonction
+Un booléen.

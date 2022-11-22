@@ -1,0 +1,13 @@
+Enoncé
+Ecrire la définition d'une fonction qui calcule et renvoie le nombre de chiffres pairs 
+dans les chiffres d'un entier strictement positif donné.
+On considère ici 0 et 2 comme des nombres pairs.
+
+Contraintes
+La fonction doit s’appeler nombrePairs.
+
+Paramètre de la fonction
+Un entier strictement positif.
+
+Retour
+Un entier positif.

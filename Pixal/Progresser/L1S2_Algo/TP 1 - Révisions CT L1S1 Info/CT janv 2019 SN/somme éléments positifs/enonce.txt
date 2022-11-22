@@ -1,0 +1,10 @@
+Enoncé
+Écrire un programme qui calcule et affiche la somme des éléments strictement positifs 
+d'une liste donnée en entrée. La liste contient au moins un élément strictement positif.
+
+Entrée du programme
+Une liste d'entiers (à saisir avec liste=eval(input()) ) qui contient au moins un 
+élément strictement positif.
+
+Sortie du programme
+Un entier.

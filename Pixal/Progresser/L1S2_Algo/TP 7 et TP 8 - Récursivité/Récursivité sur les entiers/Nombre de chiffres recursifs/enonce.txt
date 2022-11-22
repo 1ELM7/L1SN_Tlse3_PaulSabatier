@@ -1,0 +1,8 @@
+Enoncé
+Ecrire la fonction récursive longueur qui compte le nombre de chiffres d'un entier positif ou nul. Ecrire le programme qui saisit l'entier et affiche le résultat calculé par la fonction.
+
+Entrée du programme
+Un entier positif ou nul (sans vérification).
+
+Sortie du programme
+Un entier.

@@ -1,0 +1,11 @@
+Enoncé
+Ecrire les fonctions pair et impair mutuellement récursives, sans utiliser le modulo % ni le not, telles que, étant donné un entier n ≥ 0 :
+pair(n) retourne True si n est pair et False sinon.
+impair(n)retourne True si n est impair et False sinon.
+Pour tracer les appels, on ajoutera avant chaque appel récursif un affichage de l'entier courant traité. Ecrire le programme qui saisit l'entier et affiche le résultat calculé par la fonction pair.
+
+Entrée du programme
+Un entier positif ou nul (sans vérification).
+
+Sortie du programme
+La trace des appels et le booléen (False ou True).

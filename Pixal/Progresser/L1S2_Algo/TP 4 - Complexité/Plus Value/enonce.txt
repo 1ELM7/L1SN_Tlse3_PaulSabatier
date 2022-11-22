@@ -1,0 +1,31 @@
+Énoncé
+On se propose d’améliorer la complexité en temps de la fonction meilleure_plus_value en ne parcourant qu’une seule fois le tableau tab. L’idée qui permet de réaliser cette amélioration est conserver au fur et à mesure de cet unique parcours le minimum des éléments lus jusqu'à présent ainsi que la meilleure plus value possible avec les valeurs déjà rencontrées.
+
+À chaque nouvel élément lu, on teste si cet élément :
+
+doit remplacer le minimum.
+permet une meilleure plus value.
+On actualise alors le minimum ou la meilleure plus value courants si nécessaire.
+
+Réécrire la fonction meilleure_plus_value de façon à appliquer le modèle de solution proposé.
+
+Écrire le programme principal qui lit un tableau d'entiers en entrée affiche le résultat retourné par la fonction meilleure_plus_value.
+
+Contraintes
+La fonction et le programme doivent :
+
+Respecter l'abstraction Tableau (Cf. CTD 2).
+Ne pas utiliser d'autre tableau que celui donné en entrée.
+N’effectuer qu’un seul parcours du tableau.
+Ne pas utiliser de fonctions élaborée de Python pour déterminer le maximum (max, sorted, ...).
+Le nombre optimum de lectures est len(tab).
+
+Lorsque sur un test le nombre d'écritures ou de lectures dans le tableau est supérieur à l'optimum de ce que l'on peut obtenir, le pourcentage de réussite est calculé de la façon suivante :
+
+pourcentage = (100*(nb_lectures_optimum+nb_ecritures_optimum))//(nb_lectures+nb_ecritures)
+
+Entrées
+Un tableau d'entiers, lu en utilisant l'expression eval(input())
+
+Sortie
+Un entier

@@ -1,0 +1,9 @@
+Enoncé
+Ecrire la fonction récursive palindrome qui, étant donné un nombre entier (positif ou nul) renvoie si ce nombre est un palindrome.
+Ecrire le programme qui saisit le nombre entier et affiche le résultat calculé par la fonction. Remarque Pouvez-vous trouver pour quels types d'entiers cette fonction ne donnera pas le bon résultat ?
+
+Entrée du programme
+Un entier positif ou nul (sans vérification).
+
+Sortie du programme
+Un entier.

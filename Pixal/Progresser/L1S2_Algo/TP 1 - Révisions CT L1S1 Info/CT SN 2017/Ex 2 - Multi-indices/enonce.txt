@@ -1,0 +1,26 @@
+Enoncé
+On dispose de deux listes de mesures (des poids, des durées, .... peu importe) dont on 
+veut faire la somme deux à deux mais sans prendre en compte les éventuels zéros (0) qui 
+sont des erreurs de mesure.
+Par exemple : si la première liste de mesures est [1,0,3,0,-4,5] et la seconde est 
+[0,7,8,2,1,0]
+alors le résultat attendu est [8,11,-2,6].
+Explication : 1 est à additionner avec 7, puis le 3 avec 8, puis -4 avec 2 et enfin 5 
+avec 1.
+
+On garantit qu'il y a autant d'éléments non nuls dans chacune des listes (mais qu'elles 
+peuvent être vides ou ne contenir que des zéros auxquels cas le résutat sera []).
+
+Sujet
+Pour 50 % des points, écrire un programme qui prend en entrée les deux listes, et 
+fournit en sortie la liste des sommes deux à deux sans tenir compte des zéros.
+Pour obtenir 100% des points, votre programme ne doit contenir qu'une seule boucle.
+NB : les fonctions Python prédéfinies contiennent souvent une boucle !
+
+
+Entrée du programme
+Une première liste de nombres entiers, suivie d'une seconde liste de nombres entiers 
+(vous les récupérez par eval(input())).
+
+Sortie du programme
+Une liste d'entiers

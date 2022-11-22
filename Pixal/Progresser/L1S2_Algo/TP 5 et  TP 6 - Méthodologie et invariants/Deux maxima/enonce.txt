@@ -1,0 +1,12 @@
+Enoncé
+Ecrire un programme qui renvoie les deux plus grands entiers d'une liste 
+d'au moins deux élements. Vous écrirez la fonction deux_plus_grands qui 
+pour une liste donnée renvoie le couple d'entiers attendu (le premier 
+supérieur ou égal au second). Vous n'utiliserez pas de liste supplémentaire 
+et vous ne modifierez pas la liste de départ.
+
+Entrée du programme
+Une liste d'entier (à saisir avec liste=eval(input())
+
+Sortie du programme
+Deux entiers. Utiliser print(deux_plus_grands(liste)) par exemple.

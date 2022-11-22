@@ -1,0 +1,8 @@
+Enoncé
+Ecrire la fonction récursive prive_premier_chiffre qui, étant donné un nombre entier (positif ou nul) renvoie ce nombre privé de son premier chiffre. Si le nombre n'a qu'un chiffre, le résultat est 0. L'opération ** (ou équivalent) n'est pas autorisée. Ecrire le programme qui saisit le nombre entier et affiche le résultat calculé par la fonction. Cet exercice comporte des indices.
+
+Entrée du programme
+Un entier positif ou nul (sans vérification).
+
+Sortie du programme
+Un entier.

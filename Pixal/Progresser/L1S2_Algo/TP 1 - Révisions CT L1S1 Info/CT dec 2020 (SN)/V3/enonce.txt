@@ -1,0 +1,15 @@
+Enoncé
+Etant donné une base de données sous la forme d'une liste de triplets (algorithme,
+complexité,méthode), écrire un programme qui
+1) définit une fonction qui détermine la liste des algorithmes implantant une méthode 
+donnée puis
+2) lit la liste l des triplets et une méthode
+3) utilise la fonction pour calculer la liste des algorithmes associés à cette méthode et
+4) affiche cette liste.
+Entrées
+Une liste de triplets de chaînes de caractères saisie en utilisant l'instruction 
+l=eval(input()) (voir rubrique «Saisie simplifiée des listes») puis une chaîne de 
+caractères (représentant une méthode).
+
+Sortie
+Une liste de chaîne de caractères ([] si la méthode n'est pas dans la liste).

@@ -1,0 +1,23 @@
+Detection Erreur Exponentiation Rapide
+Motivation
+Détecter les erreurs et les corriger dans une boucle qui prétend calculer ab
+
+Enoncé
+Soit le programme suivant qui prétend calculer, dans une variable z, la valeur de ab avec a et b entiers naturels donnés en entrée. Le programme en sortie affiche la valeur de z calculée. Le modèle de solution consiste, pour optimiser le temps de calcul, à utiliser la propriété suivante :
+xy = (xy//2 )2 quand y est paire et
+xy=x*x(y-1) quand y est impair.
+Par convention nous supposons que 00 = 1.
+
+L’algorithme proposé utilise exclusivement les opérations *, //,%, -
+En travaillant sur des copies de a, b dénotées x, y nous devrions atteindre, par modifications successives de x et y cet objectif.
+Pour ce faire nous proposons la décomposition suivante de l'objectif :
+
+# Invariant : ab = z*xy et y>=0
+# Condition d’arrêt : y==0
+
+Questions
+Q1. Remplacer les commentaires par des assert. Faire valider par l'enseignant.
+Q2. Executer (sur repl.it, spyder ou le pas à pas PIXAL) le programme obtenu avec les entrées suivantes :
+3
+2
+Corriger chaque erreur à sa détection.

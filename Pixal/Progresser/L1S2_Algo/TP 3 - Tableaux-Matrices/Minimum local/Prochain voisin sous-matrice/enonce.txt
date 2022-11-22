@@ -1,0 +1,22 @@
+Sujet
+Ecrire une fonction prochain_voisin(ligne,colonne,limite_gauche,limite_droite) qui étant 
+donné un numéro de ligne, un numéro de colonne, une limite à gauche et une limite à 
+droite, calcule les coordonnées du prochain voisin dans une sous-matrice partiellement 
+désignée par limite_gauche, limite_droite.
+
+Le prochain voisin dans une sous-matrice se calcule en incrémentant la colonne si on ne 
+dépasse pas la limite_droite. Si on dépasse la limite_droite, alors on passe à la ligne 
+suivante et la colonne est remise à la valeur de limite_gauche.
+
+Paramètres de la fonction
+Quatre entiers. On ne vérifie pas que la colonne est bien comprise/incluse entre 
+limite_gauche et limite_droite.
+
+Retour de la fonction
+Un couple d'entiers.
+
+Entrée du programme
+Un tuple de quatre entiers.
+
+Sortie du programme
+Un couple d'entiers

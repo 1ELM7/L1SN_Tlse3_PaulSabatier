@@ -1,0 +1,8 @@
+Enoncé
+Ecrire la fonction récursive premier_chiffre qui renvoie le premier chiffre (chiffre de la puissance de 10 la plus élevée) d'un entier positif ou nul. Ecrire le programme qui saisit le nombre entier et affiche le résultat calculé par la fonction.
+
+Entrée du programme
+Un entier positif ou nul (sans vérification).
+
+Sortie du programme
+Un entier.

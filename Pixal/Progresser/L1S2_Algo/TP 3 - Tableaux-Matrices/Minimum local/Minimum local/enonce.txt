@@ -1,0 +1,15 @@
+Sujet
+Ecrire une fonction est_minimum_local qui calcule si un élément dans une matrice désigné 
+par ses coordonnées est un miminum local.
+Il est possible d'utiliser les fonctions est_position_valide(matrice,ligne,colonne) et 
+prochain_voisin(ligne,colonne,limite_gauche,limite_droite) des questions précédentes que 
+vous pouvez appeler avec from lib import *. Recopiez le programme principal ci-dessous 
+qui lit une liste de couples de coordonnées (numéro de ligne, numéro de colonne) et 
+renvoie la liste des booléens correspondant indiquant, dans l'ordre, si les éléments 
+sont des minima locaux dans la matrice en utilisant la fonction est_minimum_local.
+
+Entrée de la fonction
+Une matrice d'entiers (sous forme de liste de listes d'entiers) et une liste de coordonnées (liste de couples d'entiers).
+
+Sortie de la fonction
+Un ensemble (sous forme de liste).

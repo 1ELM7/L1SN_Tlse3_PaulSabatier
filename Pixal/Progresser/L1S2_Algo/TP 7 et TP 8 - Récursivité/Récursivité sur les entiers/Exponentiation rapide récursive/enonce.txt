@@ -1,0 +1,5 @@
+Entrée du programme
+Un entier relatif et un entier naturel.
+
+Sortie du programme
+Un entier relatif.

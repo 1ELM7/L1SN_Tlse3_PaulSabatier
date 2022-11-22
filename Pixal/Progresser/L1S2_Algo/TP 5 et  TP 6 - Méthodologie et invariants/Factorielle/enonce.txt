@@ -1,0 +1,21 @@
+Invariant et factorielle
+Motivation
+Le but de cet exercice est d’apprendre à détecter les erreurs fréquentes dans l’écriture des boucles.
+
+La détection des erreurs se fait à travers les assertions associées à la construction de la boucle par l’utilisation de l’instruction assert qui évalue une assertion (avant la boucle, à la fin d’une itération, après la boucle).
+
+L’instruction assert est utilisée pour détecter les erreurs
+Elle évalue les assertions ou les propriétés associées à des points d’observations
+Elle est utilisée pour la mise au point du programme
+assert évalue l’expression logique en argument si l'expression logique est évaluée à False, le programme s’arrête en affichant le message d’erreur (deuxième argument de l’assert) sinon on continue
+Enoncé
+La méthode proposée en cours pour écrire un programme est la suivante : déterminer l'objectif, l'invariant, la condition de boucle, la terminaison de boucle. Ici on souhaite calculer la factorielle d'un entier positif en passant par les étapes vues en cours, mais l'objectif et l'invariant sont donnés (en considérant être à l'étape i en cherchant la factorielle de n dans la variable factorielle):
+   # objectif :
+   factorielle = math.factorial(i) and i == n
+
+   # invariant :
+   factorielle = math.factorial(i)
+ 
+Ecrire le programme en positionnant les 3 asserts, faire valider par l'enseignant les asserts puis soumettre le programme dans l'énoncé PIXAL approprié.
+
+Rappel : n! = n * (n-1)! et 0! = 1. Ici, il vaut mieux raisonner dans ce sens : n! = 1 * 1 * 2 * 3.... * n La fonction de la librairie "math" factorial nous donne le calcul exact demandé. Elle est utilisée ici uniquement dans assert afin de vérifier la progression correcte de la boucle.

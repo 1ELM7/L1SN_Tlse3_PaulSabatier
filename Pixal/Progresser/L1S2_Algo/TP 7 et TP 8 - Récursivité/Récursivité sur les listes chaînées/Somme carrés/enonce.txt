@@ -1,0 +1,10 @@
+Enoncé
+Écrire la fonction récursive somme_carres qui, étant donnée une liste chaînée d'entiers, détermine et retourne la somme des carrés de ses éléments.
+
+Écrire le programme qui saisit une liste (avec eval(input())) et affiche le résultat retourné par la fonction.
+
+Entrée du programme
+Une liste d'entiers (implémentée avec des tuples).
+
+Sortie du programme
+Un entier

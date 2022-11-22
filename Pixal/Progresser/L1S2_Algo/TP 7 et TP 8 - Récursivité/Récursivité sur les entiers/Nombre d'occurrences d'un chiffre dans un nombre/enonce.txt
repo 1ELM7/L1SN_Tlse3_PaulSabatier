@@ -1,0 +1,8 @@
+Enoncé
+Ecrire la fonction récursive nb_occurrences qui, étant donné un chiffre et un nombre entier (positif ou nul), compte le nombre d'occurrences du chiffre dans l'entier. Ecrire le programme qui saisit le chiffre puis le nombre entier et affiche le résultat calculé par la fonction.
+
+Entrée du programme
+Deux entiers positifs ou nul (sans vérification).
+
+Sortie du programme
+Un entier.

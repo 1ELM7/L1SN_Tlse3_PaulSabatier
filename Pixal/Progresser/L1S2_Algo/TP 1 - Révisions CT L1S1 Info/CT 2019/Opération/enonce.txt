@@ -1,0 +1,14 @@
+Enoncé
+On veut soustraire deux à deux les éléments d'une liste, ainsi, en partant de la liste 
+[2,1,5,2] on va obtenir la liste [1,-4,3], c'est-à-dire [2-1, 1-5, 5-2].
+La liste résultat est ainsi plus petite d'une case que celle fournie en entrée.
+
+Ecrire le programme qui saisit une liste (avec eval) et qui affiche la liste de ses 
+éléments voisins soustraits 2 à 2.
+
+
+Entrée du programme
+Une liste d'entiers
+
+Sortie du programme
+Une liste d'entiers naturels

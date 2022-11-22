@@ -1,0 +1,28 @@
+Contexte
+Une permutation circulaire ou cycle est un type particulier de permutation des éléments d’un tableau, et fonctionne de la façon suivante : Si le cycle [2,5,1] est appliqué au tableau [11,12,13,14,15,16], alors :
+
+L’élément d’indice 2 (c’est-à-dire 13) est envoyé à l’indice 5.
+L’élément d’indice 5 (c’est-à-dire 16) est envoyé à l’indice 1.
+L’élément d’indice 1 (c’est-à-dire 12) est envoyé à l’indice 2
+Le tableau devient donc [11,16,12,14,15,13].
+
+Remarques
+
+Le cycle ainsi que le tableau ne sont pas vides.
+Aucun élément du tableau n'est perdu.
+Les indices du cycle sont des indices valides du tableau et sont tous différents.
+Un cycle de longueur 1 ne modifie pas le tableau.
+Énoncé
+Écrire la fonction appliquer_cycle qui accepte en paramètres le tableau à modifier ainsi que le cycle à appliquer.
+
+Écrire le programme principal qui lit les entrées (le tableau puis le cyle), appelle la fonction appliquer_cycle avec ces mêmes entrées et affiche le tableau retourné par la fonction.
+
+Contraintes
+La fonction et le programme doivent respecter l'abstraction Tableau (Cf. TD2).
+Vous ne devez pas utiliser d'autres tableaux que ceux donnés en entrées.
+
+Entrées
+Deux tableaux d'entiers non vides, lus en utilisant l'expression eval(input()).
+
+Sortie
+Le tableau modifié

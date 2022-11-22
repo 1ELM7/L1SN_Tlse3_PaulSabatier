@@ -1,0 +1,22 @@
+Enoncé
+Les matrices CSR (Compressed Sparse Row) vues en CTD permettent de représenter des matrices creuses.
+
+Ecrire la fonction somme_dense qui construit la matrice dense résultant de la somme de deux matrices CSR.
+
+Une matrice CSR se définit à partir des éléments suivants :
+shape : le couple (dim_l, dim_c)
+data : contient les données dans l'ordre ligne par ligne, colonne par colonne,
+indptr : de dimension dim_l + 1, donne, pour chaque ligne l, le nombre d'éléments non nuls présents jusqu'à la ligne l-1 incluse.
+indices : de même taille que data, contient, pour chaque indice i la colonne de l'élément data[i].
+
+Ainsi les paramètres de la fonction sont le couple de dimension, les 3 listes de la première matrice et les 3 listes de la deuxième matrice.
+Contraintes
+La fonction doit s'appeler somme_dense.
+
+Pixal ne supportant pas numpy, toutes les matrices sont implémentées comme des listes de listes.
+
+Paramètres de la fonction
+Couple d'entier, 6 listes d'entiers.
+
+Retour de la fonction
+Une liste de listes d'entiers

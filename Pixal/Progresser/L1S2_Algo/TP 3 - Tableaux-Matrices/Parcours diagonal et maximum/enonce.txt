@@ -1,0 +1,32 @@
+Enoncé
+La carte d'un jeu de plateau comporte des cases qui rapportent des points (un nombre 
+entier). Ces cases sont organisées en lignes, et une case est identifiée par ses 
+coordonnées (x,y).
+Une ligne de cases est représentée par une liste de nombres entiers et la carte d'un jeu 
+est représentée par une liste de listes.
+
+Un point de départ est identifié par ses coordonnées et un chemin par une liste de 
+directions parmi "NE", "SE", "SO", "NO" (resp. haut-droite, bas-droite, bas-gauche et 
+haut-gauche).
+Exemple : ["SE","SO","NO","NO","NE","NE"] est un chemin.
+
+Ecrivez un programme qui prend en entrée une carte (liste de listes, avec eval(input()), 
+un couple (x,y) coordonnées du point de départ (aussi avec eval(input())), et un chemin 
+(liste de chaînes de caractères, encore avec eval(input())).
+Ce programme retourne la plus grande des valeurs rencontrées (les points de départ et 
+d'arrivée sont inclus).
+
+On suppose que le point de départ est bien sur la carte et que les chemins ne font 
+jamais sortir de la carte. Si le chemin fait repasser par une case déjà visitée cela n'a 
+aucune importance. Conseil : écrivez une fonction qui prend en entrée un couple de 
+coordonnées et une direction, et renvoie les coordonnées du point atteint après un 
+déplacement dans la direction donnée. Nous vous rappelons qu'on suppose que les chemins 
+ne "sortent" pas de la carte, vous n'avez donc pas à vous préoccuper de ce souci !
+
+
+Entrées
+Une carte (liste de listes d'entiers), un point de départ (un couple d'entiers),
+un chemin (liste de chaînes de caractères)
+
+Sortie
+La plus grande des valeurs rencontrées (un entier)

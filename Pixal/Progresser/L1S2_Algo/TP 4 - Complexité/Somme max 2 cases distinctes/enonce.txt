@@ -1,0 +1,27 @@
+Énoncé
+On se propose d’améliorer la complexité en temps de la fonction somme_maximale en ne parcourant qu’une seule fois le tableau tab. L’idée qui permet de réaliser cette amélioration est de déterminer au fur et à mesure de cet unique parcours la première et la deuxième plus grandes valeurs du tableau.
+
+Écrire la fonction deux_maxima qui accepte en paramètre un tableau d'entiers tab de longueur n au moins égale à 2 et retourne un tuple (max1,max2), où max1 est la plus grande valeur du tableau (c’est-à-dire le maximum) et max2 la deuxième plus grande valeur du tableau.
+
+Réécrire la fonction somme_maximale de façon à appeler la fonction deux_maxima et retourner la somme des deux maxima ainsi obtenus.
+
+Écrire le programme principal qui lit un tableau d'entiers en entrée affiche le résultat retourné par la fonction somme_maximale.
+
+Contraintes
+La fonction et le programme doivent :
+
+Respecter l'abstraction Tableau (Cf. CTD 2).
+Ne pas utiliser d'autre tableau que celui donné en entrée.
+N’effectuer qu’un seul parcours du tableau.
+Ne pas utiliser de fonctions élaborée de Python pour déterminer le maximum (max, sorted, ...).
+Le nombre optimum de lectures est len(tab)+2 (on peut même faire moins).
+
+Lorsque sur un test le nombre d'écritures ou de lectures dans le tableau est supérieur à l'optimum de ce que l'on peut obtenir, le pourcentage de réussite est calculé de la façon suivante :
+
+pourcentage = (100*(nb_lectures_optimum+nb_ecritures_optimum))//(nb_lectures+nb_ecritures)
+
+Entrées
+Un tableau d'entiers, lu en utilisant l'expression eval(input())
+
+Sortie
+Un entier

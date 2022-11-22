@@ -1,0 +1,10 @@
+Enoncé
+Écrire la fonction récursive concatener qui accepte en paramètres deux listes chaînées liste1 et liste2 contenant des éléments de même type et retourne une nouvelle liste contenant dans l’ordre tous les éléments de liste1 suivis des éléments de liste2.
+
+Écrire le programme qui saisit les deux listes à la suite (avec eval(input())) et affiche le résultat retourné par la fonction.
+
+Entrée du programme
+Deux listes chaînées (implémentées avec des tuples) contenant des éléments de même type.
+
+Sortie du programme
+Une liste chaînée

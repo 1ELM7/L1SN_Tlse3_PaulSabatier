@@ -1,0 +1,8 @@
+Enoncé
+Ecrire la fonction division qui étant donnés 2 entiers a et b, b > 0, retourne le couple formé du quotient de la division entière de a par b et son reste, et ceci sans utiliser les opérations ⁄ ni % mais en utilisant la soustraction. Ecrire le programme qui saisit deux entiers (le deuxième strictement positif) et affiche le résultat calculé par la fonction (couple quotient, reste).
+
+Entrée du programme
+Deux entiers (deuxième strictement positif sans vérification)
+
+Sortie du programme
+Un couple quotient, reste.

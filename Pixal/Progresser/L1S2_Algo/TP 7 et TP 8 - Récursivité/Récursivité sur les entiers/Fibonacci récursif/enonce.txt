@@ -1,0 +1,13 @@
+Énoncé
+
+Ajouter des impressions (avec print, au format montré par l'exemple) qui permettent de tracer à chaque appel la valeur de l’argument et le résultat calculé.
+
+Sans le faire exécuter, qu’en est-il de fibonacci(-5).
+
+Définir une fonction qui permet de résoudre ce problème à l'aide d'un assert judicieusement placé (minimiser les tests inutiles lors des appels récursifs). Ecrire un programme qui appelle cette fonction et affiche les messages demandés ainsi que le résultat du calcul.
+
+Entrée du programme
+Un entier positif ou nul.
+
+Sortie du programme
+Les affichages des appels suivis de l'entier résultat ou un message "erreur domaine definition fibonacci".

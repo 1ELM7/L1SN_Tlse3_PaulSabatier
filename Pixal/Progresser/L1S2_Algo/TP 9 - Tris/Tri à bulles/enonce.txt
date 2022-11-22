@@ -1,0 +1,15 @@
+Énoncé
+Le tri bulle consiste à déplacer par permutation le plus grand élément à droite puis à déplacer le second plus grand élément à côté du plus grand et ainsi de suite. Pour ce tri on procèdera de manière itérative.
+
+Écrire la fonction tri_bulle qui accepte en paramètre un tableau et suit l'algorithme suivant:
+
+On compare les deux premiers éléments du tableau et on met le plus petit en position 0 et le plus grand en position 1.
+On compare les deux éléments en position 1 et 2 et on fait de même
+On continue jusqu'à arriver à la fin du tableau (et donc on a mis le plus grand élément en dernier)
+On recommence mais uniquement sur les élements restants (tous sauf le dernier, puis tous sauf les deux derniers,...).
+
+Entrée du programme
+Un tableau d'entiers (non trié), lu à l'aide de l'instruction eval(input())
+
+Sortie du programme
+Un tableau d'entiers trié.

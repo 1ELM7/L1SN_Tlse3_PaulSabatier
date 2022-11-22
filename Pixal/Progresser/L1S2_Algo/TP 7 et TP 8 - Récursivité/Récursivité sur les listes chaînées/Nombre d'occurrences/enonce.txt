@@ -1,0 +1,12 @@
+Enoncé
+Écrire la fonction récursive nombre_occurrences qui, étant donnés un entier et une liste chaînée d'entiers, compte et retourne le nombre d’occurrences de cet entier dans la liste.
+
+Remarque : hors du contexte de cet exercice, cette fonction pourra être utilisée avec une liste d'éléments de type quelconque (pas nécessairement des entiers).
+
+Écrire le programme qui saisit un entier et une liste (avec eval(input())) et affiche le résultat retourné par la fonction.
+
+Entrée du programme
+Un entier et une liste d'entiers (implémentée avec des tuples).
+
+Sortie du programme
+Un entier

@@ -1,0 +1,10 @@
+Enoncé
+Écrire la fonction récursive minimum qui accepte en paramètre une liste chaînée non vide d'entiers et retourne le minimum de ses éléments.
+
+Écrire le programme qui saisit une liste (avec eval(input())) et affiche le résultat retourné par la fonction.
+
+Entrée du programme
+Une liste d'entiers non vide (implémentée avec des tuples).
+
+Sortie du programme
+Un entier

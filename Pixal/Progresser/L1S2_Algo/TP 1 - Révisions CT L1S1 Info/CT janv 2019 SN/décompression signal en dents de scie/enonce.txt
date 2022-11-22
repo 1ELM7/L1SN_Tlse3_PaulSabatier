@@ -1,0 +1,42 @@
+Enoncé
+Le type très particulier de signal électrique suivant, dit en dents de scie quand il est 
+échantillonné il fournit une suite de nombres composée de longues séquences croissantes 
+de nombre consécutifs.
+
+Cette liste de nombres sera appelée liste initiale. Il existe une méthode pour décrire 
+cette liste initiale (et donc ce signal) de manière plus compacte à travers une liste de 
+description. On pourra, bien sûr, reconstituer la liste initiale à partir de sa liste de description.
+Dans la liste de description, les éléments d'indice pair sont les milieux des séquences 
+croissantes, et ceux d'indice impair représentent l'écart à considérer. Dans la séquence 
+3,4,5,6,7 le milieu est 5 et l'écart est 2, cette séquence sera représentée par le nombre 
+5 suivi du nombre 2.
+Dans notre cas, pour simplifier, elles seront de longueur impaire ce qui garantit que le 
+milieu est un entier.
+On s'intéresse ici à la reconstitution de la liste initiale à partir de sa liste de 
+description.
+Voici un exemple explicatif :
+la liste de description [5, 2, 11, 4] signifie qu'on veut les nombres de 5 - 2 à 5 + 2 (de 3 à 7), suivis des nombres de 11 - 4 à 11 + 4, (de 7 à 15), ce qui donne la liste initiale :
+[3, 4, 5, 6, 7, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+NB : une liste de description est toujours de longueur paire, et les éléments d'indice 
+impair sont positifs ou nuls car ils indiquent l'écart à considérer.
+Écrivez un programme qui lit une liste de description (en utilisant eval(input()))
+et reconstitue puis affiche la liste initiale correspondante.
+
+A partir de la liste de description
+[2, 1, 8, 2, 1, 3, -2, 2, 7, 0]
+il nous faut les nombres :
+de 2-1 à 2+1, soit de 1 à 3
+suivi 8-2 à 8+2, soit de 6 à 10
+suivi de 1-3 à 1+3, soit de -2 à 4
+suivi de -2-2 à -2+2, soit de -4 à 0
+suivi de 7-0 à 7+0, soit de 7 à 7
+Donc la liste initiale est
+[1, 2, 3, 6, 7, 8, 9, 10, -2, -1, 0, 1, 2, 3, 4, -4, -3, -2, -1, 0, 7]
+
+
+Entrées
+Une liste de longueur paire d'entiers (ceux d'indice pair étant positifs ou nuls).
+
+Sortie
+Une liste d'entiers

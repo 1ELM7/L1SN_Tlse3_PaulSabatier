@@ -1,0 +1,14 @@
+Enoncé
+Ecrire un programme qui transforme le programme suivant en remplaçant la boucle for par 
+une boucle while.
+
+a = int(input())
+for i in range(a) :
+    print(i)
+
+
+Entrée du programme
+Un entier naturel.
+
+Sortie du programme
+Des entiers.

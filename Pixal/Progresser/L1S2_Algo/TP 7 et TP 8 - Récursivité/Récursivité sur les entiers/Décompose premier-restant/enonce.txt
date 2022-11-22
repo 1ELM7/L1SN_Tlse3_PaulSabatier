@@ -1,0 +1,8 @@
+Enoncé
+Ecrire la fonction récursive premier_restant qui, étant donné un nombre entier (positif ou nul) renvoie le couple composé du premier chiffre, et de ce nombre privé de son premier chiffre. L'idée est de "fusionner" les deux fonctions premier_chiffre et prive_premier_chiffre en un seul appel récursif. Ecrire le programme qui saisit le nombre entier et affiche le résultat calculé par la fonction.
+
+Entrée du programme
+Un entier positif ou nul (sans vérification).
+
+Sortie du programme
+Un couple d'entiers.

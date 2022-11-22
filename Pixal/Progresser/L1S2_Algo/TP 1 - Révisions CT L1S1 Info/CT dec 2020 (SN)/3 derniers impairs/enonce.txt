@@ -1,0 +1,12 @@
+Énoncé
+Écrire la fonction derniers_indices qui retourne la liste des indices (dans l'ordre 
+décroissant) des 3 derniers nombres impairs d'une liste. S'il y a moins de 3 nombres 
+impairs dans la liste, la longueur de la liste retournée est inférieure à 3.
+Écrire le programme qui saisit une liste d'entiers, appelle la fonction derniers_indices 
+avec cette liste en paramètre et affiche la liste retournée par la fonction.
+
+Entrée
+Une liste d'entiers saisie en utilisant l'instruction liste=eval(input()).
+
+Sortie
+Une liste d'entiers naturels
